@@ -49,18 +49,18 @@
     "alumni_title": "Alumni (Hall of Fame)",
     "alumni_subtitle": "A legacy section honoring past leaders and showing where they work now.",
     "roles": {
-      "chair": "The highest leadership position of the chapter. Sets the overall vision, direction, and culture of the club. Presides over all meetings, makes final decisions, represents the chapter at university and ACM national levels, and ensures all committees are functioning effectively.",
-      "vice_chair": "Supports the Chair in all duties and steps in as acting Chair when needed. Oversees inter-committee coordination, ensures directors are meeting their goals, and acts as the internal operations manager.",
-      "treasurer": "Manages all financial matters of the chapter. Responsible for budgeting, tracking expenditures, collecting dues, processing reimbursements, and maintaining transparent financial records.",
-      "membership_chair": "Owns the full member lifecycle — from recruitment and onboarding to engagement and retention. Tracks membership rosters and manages dues status.",
-      "secretary": "The organizational backbone of the executive board. Records and distributes meeting minutes, maintains official chapter documents, and manages internal communications.",
-      "faculty_sponsor": "A faculty member who serves as the chapter's institutional anchor. Provides academic guidance and connects students with research and professional opportunities.",
-      "events_director": "Oversees the planning, coordination, and execution of all chapter events. Manages the semester event calendar and coordinates logistics like venues and catering.",
-      "marketing_director": "Responsible for the chapter's brand, visibility, and communications. Oversees all promotional materials and social media presence.",
-      "technical_director": "Leads all technical initiatives within the chapter. Oversees the chapter website, internal tools, and member projects.",
-      "research_director": "Bridges the gap between the chapter and academic life. Organizes research talks, academic workshops, and faculty connections.",
-      "industry_director": "Manages all relationships between the chapter and the professional world. Reaches out to companies for sponsorships and coordinates corporate speakers.",
-      "cp_director": "Leads all competitive programming and technical contest efforts. Organizes practice sessions and coaches members for competitions like ICPC."
+      "chair": "The highest leadership position of the chapter. Sets the overall vision, direction, and culture of the club. Presides over all meetings, makes final decisions, represents the chapter at university and ACM national levels, and ensures all committees are functioning effectively. Accountable for the chapter's success as a whole.",
+      "vice_chair": "Supports the Chair in all duties and steps in as acting Chair when needed. Oversees inter-committee coordination, ensures directors are meeting their goals, and acts as the internal operations manager. Often the person officers go to for day-to-day guidance.",
+      "treasurer": "Manages all financial matters of the chapter. Responsible for budgeting, tracking expenditures, collecting dues, processing reimbursements, applying for university funding, and maintaining transparent financial records. Coordinates with directors on event budgets and reports finances to the executive board regularly.",
+      "membership_chair": "Owns the full member lifecycle — from recruitment and onboarding to engagement and retention. Tracks membership rosters, manages dues status, coordinates welcome events, and ensures new members feel integrated into the chapter community.",
+      "secretary": "The organizational backbone of the executive board. Records and distributes meeting minutes, maintains official chapter documents, manages internal communications and announcements, coordinates scheduling, and ensures the chapter meets ACM national reporting requirements.",
+      "faculty_sponsor": "A faculty or staff member who serves as the chapter's institutional anchor. Provides academic guidance, signs off on official university and ACM paperwork, lends credibility to the chapter, connects students with research and professional opportunities, and advises leadership on long-term strategy.",
+      "events_director": "Oversees the planning, coordination, and execution of all chapter events. Manages the semester event calendar, coordinates logistics like venues, catering, and equipment, and ensures events run smoothly from conception to wrap-up. Works closely with Marketing and Technical directors for promotion and support.",
+      "marketing_director": "Responsible for the chapter's brand, visibility, and communications. Oversees all promotional materials, social media presence, and public-facing messaging. Ensures consistent branding across all channels and manages the chapter's reputation both on campus and externally.",
+      "technical_director": "Leads all technical initiatives within the chapter. Oversees the chapter website, internal tools, member projects, and technical workshops. Fosters a culture of hands-on learning and ensures members have opportunities to build real technical skills.",
+      "research_director": "Bridges the gap between the chapter and academic life. Organizes research talks, academic workshops, study resources, and faculty connections. Supports members interested in graduate school, research internships, and academic publishing.",
+      "industry_director": "Manages all relationships between the chapter and the professional world. Reaches out to companies for sponsorships, coordinates corporate speakers and recruiters, and secures funding and resources from industry partners. Maintains a pipeline of company contacts and tracks sponsorship agreements.",
+      "cp_director": "Leads all competitive programming and technical contest efforts. Organizes practice sessions, coaches members for competitions like ICPC, and fosters a culture of algorithmic thinking and problem-solving excellence within the chapter."
     }
   },
   "Calendar": {

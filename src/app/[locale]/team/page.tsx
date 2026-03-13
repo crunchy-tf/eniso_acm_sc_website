@@ -7,21 +7,21 @@ export default async function Team() {
   const t = await getTranslations('Team');
 
   const executiveBoard = [
-    { roleKey: 'chair', name: 'Chair Person' },
-    { roleKey: 'vice_chair', name: 'Vice Chair Person' },
-    { roleKey: 'treasurer', name: 'Treasurer Name' },
-    { roleKey: 'membership_chair', name: 'Membership Chair Name' },
-    { roleKey: 'secretary', name: 'Secretary Name' },
-    { roleKey: 'faculty_sponsor', name: 'Faculty Name' },
+    { roleKey: 'chair', title: 'Chair' },
+    { roleKey: 'vice_chair', title: 'Vice Chair' },
+    { roleKey: 'treasurer', title: 'Treasurer' },
+    { roleKey: 'membership_chair', title: 'Membership Chair' },
+    { roleKey: 'secretary', title: 'Secretary' },
+    { roleKey: 'faculty_sponsor', title: 'Faculty Sponsor' },
   ];
 
   const directors = [
-    { roleKey: 'events_director', name: 'Events Director' },
-    { roleKey: 'marketing_director', name: 'Marketing Director' },
-    { roleKey: 'technical_director', name: 'Technical Director' },
-    { roleKey: 'research_director', name: 'Research Director' },
-    { roleKey: 'industry_director', name: 'Industry Director' },
-    { roleKey: 'cp_director', name: 'CP Director' },
+    { roleKey: 'events_director', title: 'Events & Logistics Director' },
+    { roleKey: 'marketing_director', title: 'Marketing & Public Relations Director' },
+    { roleKey: 'technical_director', title: 'Technical Director' },
+    { roleKey: 'research_director', title: 'Research & Academia Director' },
+    { roleKey: 'industry_director', title: 'Industry Liaison & Sponsorship Director' },
+    { roleKey: 'cp_director', title: 'Competitive Programming Director' },
   ];
 
   const members = [
@@ -49,8 +49,7 @@ export default async function Team() {
             {executiveBoard.map((member) => (
               <div key={member.roleKey} className={styles.roleCard}>
                 <div className={styles.imagePlaceholder}></div>
-                <h3>{member.name}</h3>
-                <span className={styles.roleLabel}>{member.roleKey.replace('_', ' ').toUpperCase()}</span>
+                <h3>{member.title}</h3>
                 <p>{t(`roles.${member.roleKey}`)}</p>
               </div>
             ))}
@@ -63,8 +62,7 @@ export default async function Team() {
             {directors.map((member) => (
               <div key={member.roleKey} className={styles.roleCard}>
                 <div className={styles.imagePlaceholder}></div>
-                <h3>{member.name}</h3>
-                <span className={styles.roleLabel}>{member.roleKey.replace('_', ' ').toUpperCase()}</span>
+                <h3>{member.title}</h3>
                 <p>{t(`roles.${member.roleKey}`)}</p>
               </div>
             ))}
