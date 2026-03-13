@@ -1,0 +1,128 @@
+.container {
+  min-height: 100vh;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: var(--muted-foreground);
+}
+
+.section {
+  margin-bottom: 8rem;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.roleGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .roleGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .roleGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.roleCard {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.roleCard:hover {
+  transform: translateY(-5px);
+}
+
+.imagePlaceholder {
+  width: 120px;
+  height: 120px;
+  background-color: var(--muted);
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  border: 4px solid var(--primary);
+}
+
+.roleCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.roleLabel {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  background-color: rgba(0, 93, 170, 0.1);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+
+.roleCard p {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  line-height: 1.6;
+}
+
+.alumni {
+  text-align: center;
+  padding: 6rem 2rem;
+  background-color: var(--muted);
+  border-radius: var(--radius);
+}
+
+.alumni h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.alumniGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alumniCard {
+  background-color: var(--card);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  border: 1px solid var(--border);
+}

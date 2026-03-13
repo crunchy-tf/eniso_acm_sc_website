@@ -1,0 +1,95 @@
+{
+  "Index": {
+    "title": "Chapitre Étudiant ACM ENISo",
+    "description": "Le chapitre étudiant officiel de l'ACM à l'ENISo.",
+    "cta": "Rejoignez-nous",
+    "upcoming": "Événements à venir",
+    "pitch_title": "Chapitre Officiel Charté par l'ACM",
+    "pitch_text": "Nous sommes plus qu'un simple club. Nous sommes une partie officielle du réseau mondial de l'ACM, dédiée à l'avancement de l'informatique en tant que science et profession. Notre mission est de fournir aux étudiants les ressources, le mentorat et les opportunités nécessaires pour exceller dans l'industrie technologique.",
+    "pitch_link": "En savoir plus sur notre héritage",
+    "news_title": "Dernières Actualités",
+    "news_view_all": "Voir tout",
+    "sponsors_title": "Nos Partenaires et Sponsors",
+    "faq_title": "Questions Fréquemment Posées",
+    "faq_subtitle": "Tout ce que vous devez savoir sur notre chapitre."
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "calendar": "Calendrier",
+    "team": "Équipe",
+    "resources": "Ressources",
+    "news": "Actualités",
+    "join": "Nous Rejoindre",
+    "contact": "Contact"
+  },
+  "About": {
+    "hero_title": "À Propos de Notre Chapitre",
+    "hero_subtitle": "Expliquer notre mission, notre structure et notre héritage.",
+    "mission_title": "Mission et Vision",
+    "mission_text": "Notre mission est de favoriser une communauté dynamique de professionnels de l'informatique à l'ENISo. Nous envisageons un avenir où chaque étudiant dispose des outils et du réseau nécessaires pour innover et diriger dans le paysage technologique mondial.",
+    "acm_title": "La Connexion ACM",
+    "acm_text": "Faire partie du réseau mondial de l'ACM connecte nos membres à la plus grande société informatique éducative et scientifique au monde, offrant un accès aux bibliothèques numériques, aux compétitions internationales et à un vaste réseau professionnel.",
+    "sigs_title": "Comités et SIGs",
+    "sigs_text": "Nos groupes d'intérêt spécial (SIG) se concentrent sur des domaines de niche comme l'IA, la programmation compétitive et le développement Web, permettant aux membres d'approfondir leurs passions.",
+    "history_title": "Notre Histoire",
+    "history_text": "Fondé à l'ENISo, notre chapitre est passé d'un petit groupe de passionnés à un chapitre étudiant officiel charté par l'ACM, organisant des hackathons nationaux et des ateliers."
+  },
+  "Team": {
+    "hero_title": "Notre Équipe",
+    "hero_subtitle": "Instaurer la confiance, présenter le leadership et reconnaître les contributeurs.",
+    "board_title": "Bureau Exécutif",
+    "directors_title": "Directeurs de Comités",
+    "members_title": "Membres de Comités",
+    "alumni_title": "Alumni (Temple de la Renommée)",
+    "alumni_subtitle": "Une section héritage honorant les anciens dirigeants et montrant où ils travaillent maintenant.",
+    "roles": {
+      "chair": "Le poste de direction le plus élevé du chapitre. Définit la vision globale, la direction et la culture du club. Préside toutes les réunions, prend les décisions finales, représente le chapitre aux niveaux universitaire et national de l'ACM.",
+      "vice_chair": "Soutient le président dans toutes ses fonctions et remplace le président par intérim en cas de besoin. Supervise la coordination inter-comités.",
+      "treasurer": "Gère toutes les questions financières du chapitre. Responsable de la budgétisation, du suivi des dépenses, de la perception des cotisations et de la tenue de dossiers financiers transparents.",
+      "membership_chair": "Gère le cycle de vie complet des membres — du recrutement et de l'intégration à l'engagement et à la rétention.",
+      "secretary": "Le pilier organisationnel du bureau exécutif. Enregistre et distribue les procès-verbaux des réunions, maintient les documents officiels du chapitre.",
+      "faculty_sponsor": "Un membre du corps professoral qui sert d'ancrage institutionnel au chapitre. Fournit des conseils académiques.",
+      "events_director": "Supervise la planification, la coordination et l'exécution de tous les événements du chapitre. Gère le calendrier des événements du semestre.",
+      "marketing_director": "Responsable de la marque, de la visibilité et des communications du chapitre. Supervise tous les supports promotionnels.",
+      "technical_director": "Dirige toutes les initiatives techniques au sein du chapitre. Supervise le site Web du chapitre, les outils internes et les projets des membres.",
+      "research_director": "Fait le pont entre le chapitre et la vie académique. Organise des conférences de recherche et des ateliers académiques.",
+      "industry_director": "Gère toutes les relations entre le chapitre et le monde professionnel. Contacte les entreprises pour des partenariats.",
+      "cp_director": "Dirige tous les efforts de programmation compétitive et de concours techniques. Organise des sessions d'entraînement."
+    }
+  },
+  "Calendar": {
+    "hero_title": "Calendrier des Événements",
+    "hero_subtitle": "Présenter une communauté active et vibrante.",
+    "flagship_title": "Événement Phare",
+    "flagship_subtitle": "Mise en avant de notre plus grand événement à venir ou annuel.",
+    "events_title": "Événements à venir",
+    "events_subtitle": "Un calendrier interactif et filtrable de ce qui suit."
+  },
+  "Resources": {
+    "hero_title": "Ressources et Projets",
+    "hero_subtitle": "Un centre pour la croissance technique et les contributions des membres.",
+    "projects_title": "Projets Open Source",
+    "projects_subtitle": "Dépôts, documentation et moyens de contribuer aux logiciels dirigés par le chapitre.",
+    "workshops_title": "Archives des Ateliers",
+    "workshops_subtitle": "Archives des diapositives de présentation, extraits de code et enregistrements vidéo des sessions passées.",
+    "cp_title": "Coin Programmation Compétitive (CP)",
+    "cp_subtitle": "Classements, ressources d'entraînement ICPC, algorithmes et calendriers de formation."
+  },
+  "Join": {
+    "hero_title": "Rejoignez-nous",
+    "hero_subtitle": "Convertissez votre passion en une adhésion officielle à l'ACM.",
+    "why_title": "Pourquoi nous rejoindre ?",
+    "process_title": "Le processus de recrutement",
+    "form_title": "Le formulaire d'inscription",
+    "form_subtitle": "Un formulaire intégré et facile à remplir pour s'inscrire officiellement."
+  },
+  "Contact": {
+    "hero_title": "Contactez-nous",
+    "hero_subtitle": "Accessibilité pour les sponsors, les conférenciers et les étudiants.",
+    "form_title": "Envoyez-nous un message",
+    "emails_title": "Emails Officiels",
+    "location_title": "Notre Emplacement",
+    "socials_title": "Liens vers les Réseaux Sociaux"
+  }
+}

@@ -1,0 +1,47 @@
+.galleryContainer {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 4rem 0;
+  background-color: var(--background);
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.track {
+  display: flex;
+  gap: 0.5rem;
+  width: max-content;
+}
+
+.imageBox {
+  width: 350px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.imageBox:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .imageBox {
+    width: 250px;
+    height: 180px;
+  }
+}

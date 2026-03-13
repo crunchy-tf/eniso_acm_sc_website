@@ -1,0 +1,95 @@
+{
+  "Index": {
+    "title": "ENISo ACM Student Chapter",
+    "description": "The official chartered ACM student chapter at ENISo.",
+    "cta": "Join Us",
+    "upcoming": "Upcoming Events",
+    "pitch_title": "Official ACM Chartered Chapter",
+    "pitch_text": "We are more than just a club. We are an official part of the global ACM network, dedicated to advancing computing as a science and profession. Our mission is to provide students with the resources, mentorship, and opportunities needed to excel in the tech industry.",
+    "pitch_link": "Learn more about our legacy",
+    "news_title": "Latest News",
+    "news_view_all": "View All",
+    "sponsors_title": "Our Partners & Sponsors",
+    "faq_title": "Frequently Asked Questions",
+    "faq_subtitle": "Everything you need to know about our chapter."
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "calendar": "Calendar",
+    "team": "Team",
+    "resources": "Resources",
+    "news": "News",
+    "join": "Join Us",
+    "contact": "Contact Us"
+  },
+  "About": {
+    "hero_title": "About Our Chapter",
+    "hero_subtitle": "Explaining our purpose, structure, and legacy.",
+    "mission_title": "Mission & Vision",
+    "mission_text": "Our mission is to foster a vibrant community of computing professionals at ENISo. We envision a future where every student has the tools and network to innovate and lead in the global tech landscape.",
+    "acm_title": "The ACM Connection",
+    "acm_text": "Being part of the global ACM network connects our members to the world's largest educational and scientific computing society, offering access to digital libraries, international competitions, and a vast professional network.",
+    "sigs_title": "Committees and SIGs",
+    "sigs_text": "Our Special Interest Groups (SIGs) focus on niche areas like AI, Competitive Programming, and Web Development, allowing members to dive deep into their passions.",
+    "history_title": "Our History",
+    "history_text": "Founded at ENISo, our chapter has grown from a small group of enthusiasts to an official chartered ACM student chapter, hosting national hackathons and workshops."
+  },
+  "Team": {
+    "hero_title": "Our Team",
+    "hero_subtitle": "Building trust, showcasing leadership, and recognizing contributors.",
+    "board_title": "Executive Board",
+    "directors_title": "Committee Directors",
+    "members_title": "Committee Members",
+    "alumni_title": "Alumni (Hall of Fame)",
+    "alumni_subtitle": "A legacy section honoring past leaders and showing where they work now.",
+    "roles": {
+      "chair": "The highest leadership position of the chapter. Sets the overall vision, direction, and culture of the club. Presides over all meetings, makes final decisions, represents the chapter at university and ACM national levels, and ensures all committees are functioning effectively.",
+      "vice_chair": "Supports the Chair in all duties and steps in as acting Chair when needed. Oversees inter-committee coordination, ensures directors are meeting their goals, and acts as the internal operations manager.",
+      "treasurer": "Manages all financial matters of the chapter. Responsible for budgeting, tracking expenditures, collecting dues, processing reimbursements, and maintaining transparent financial records.",
+      "membership_chair": "Owns the full member lifecycle — from recruitment and onboarding to engagement and retention. Tracks membership rosters and manages dues status.",
+      "secretary": "The organizational backbone of the executive board. Records and distributes meeting minutes, maintains official chapter documents, and manages internal communications.",
+      "faculty_sponsor": "A faculty member who serves as the chapter's institutional anchor. Provides academic guidance and connects students with research and professional opportunities.",
+      "events_director": "Oversees the planning, coordination, and execution of all chapter events. Manages the semester event calendar and coordinates logistics like venues and catering.",
+      "marketing_director": "Responsible for the chapter's brand, visibility, and communications. Oversees all promotional materials and social media presence.",
+      "technical_director": "Leads all technical initiatives within the chapter. Oversees the chapter website, internal tools, and member projects.",
+      "research_director": "Bridges the gap between the chapter and academic life. Organizes research talks, academic workshops, and faculty connections.",
+      "industry_director": "Manages all relationships between the chapter and the professional world. Reaches out to companies for sponsorships and coordinates corporate speakers.",
+      "cp_director": "Leads all competitive programming and technical contest efforts. Organizes practice sessions and coaches members for competitions like ICPC."
+    }
+  },
+  "Calendar": {
+    "hero_title": "Event Calendar",
+    "hero_subtitle": "Showcasing an active, vibrant community.",
+    "flagship_title": "Flagship Event Spotlight",
+    "flagship_subtitle": "Highlighting our biggest upcoming or annual event.",
+    "events_title": "Upcoming Events",
+    "events_subtitle": "An interactive, filterable schedule of what's next."
+  },
+  "Resources": {
+    "hero_title": "Resources & Projects",
+    "hero_subtitle": "A hub for technical growth and member contributions.",
+    "projects_title": "Open Source Projects",
+    "projects_subtitle": "Repositories, documentation, and ways to contribute to chapter-led software.",
+    "workshops_title": "Workshops Archive",
+    "workshops_subtitle": "Archives of presentation slides, code snippets, and video recordings from past sessions.",
+    "cp_title": "Competitive Programming (CP) Corner",
+    "cp_subtitle": "Leaderboards, ICPC practice resources, algorithms, and training schedules."
+  },
+  "Join": {
+    "hero_title": "Join Us",
+    "hero_subtitle": "Convert your passion into official ACM membership.",
+    "why_title": "Why Join Us?",
+    "process_title": "The Recruitment Process",
+    "form_title": "The Application Form",
+    "form_subtitle": "An embedded, easy-to-fill form to officially register."
+  },
+  "Contact": {
+    "hero_title": "Contact Us",
+    "hero_subtitle": "Accessibility for sponsors, speakers, and students.",
+    "form_title": "Send us a Message",
+    "emails_title": "Official Emails",
+    "location_title": "Our Location",
+    "socials_title": "Social Media Links"
+  }
+}
