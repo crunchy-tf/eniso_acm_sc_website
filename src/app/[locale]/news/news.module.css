@@ -42,6 +42,12 @@
   }
 }
 
+.cardLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .card {
   background-color: var(--card);
   border: 1px solid var(--border);

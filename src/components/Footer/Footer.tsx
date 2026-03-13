@@ -24,21 +24,25 @@ export default function Footer() {
               Official Chartered ACM Student Chapter at the National School of Engineers of Sousse.
             </p>
             <div className={styles.socials}>
-              <a href="#"><Linkedin size={20} /></a>
-              <a href="#"><Instagram size={20} /></a>
-              <a href="#"><Facebook size={20} /></a>
-              <a href="#"><Twitter size={20} /></a>
-              <a href="#"><Github size={20} /></a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><Instagram size={20} /></a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><Facebook size={20} /></a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><Twitter size={20} /></a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
             </div>
           </div>
 
           <div className={styles.links}>
             <h4>Quick Links</h4>
             <ul>
+              <li><Link href={`/${locale}`}>{t('home')}</Link></li>
               <li><Link href={`/${locale}/about`}>{t('about')}</Link></li>
               <li><Link href={`/${locale}/calendar`}>{t('calendar')}</Link></li>
               <li><Link href={`/${locale}/team`}>{t('team')}</Link></li>
+              <li><Link href={`/${locale}/resources`}>{t('resources')}</Link></li>
               <li><Link href={`/${locale}/news`}>{t('news')}</Link></li>
+              <li><Link href={`/${locale}/join`}>{t('join')}</Link></li>
+              <li><Link href={`/${locale}/contact`}>{t('contact')}</Link></li>
             </ul>
           </div>
 

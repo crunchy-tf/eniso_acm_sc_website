@@ -54,10 +54,10 @@ export default async function Contact() {
             <div className={styles.infoGroup}>
               <h2>{t('socials_title')}</h2>
               <div className={styles.socialGrid}>
-                <a href="#"><Linkedin size={24} /></a>
-                <a href="#"><Instagram size={24} /></a>
-                <a href="#"><Facebook size={24} /></a>
-                <a href="#"><Github size={24} /></a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><Linkedin size={24} /></a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><Instagram size={24} /></a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><Facebook size={24} /></a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer"><Github size={24} /></a>
               </div>
             </div>
           </section>

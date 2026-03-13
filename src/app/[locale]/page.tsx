@@ -14,9 +14,7 @@ export default async function Home() {
   const locale = await getLocale();
 
   const news = [
-    { id: 1, title: 'ACM National Hackathon 2024', date: 'May 15, 2024', image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&q=80' },
-    { id: 2, title: 'Workshop: Machine Learning', date: 'April 20, 2024', image: 'https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=400&q=80' },
-    { id: 3, title: 'ACM ICPC Regional Results', date: 'March 10, 2024', image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&q=80' },
+    { id: 1, title: 'Announcing the 2026 ENISo Code Clash', date: 'March 13, 2026', image: '/images/events/637472601_122175513800680217_906934261749656364_n.jpg' },
   ];
 
   const faqs = [
@@ -72,6 +70,28 @@ export default async function Home() {
         {/* Community Gallery */}
         <Gallery />
 
+        {/* Why ACM Section */}
+        <section className={styles.whyACM}>
+          <div className={styles.sectionInner}>
+            <div className={styles.whyACMLogo}>
+              <img src="/images/sponsors/Association_for_Computing_Machinery_(ACM)_logo.svg.png" alt="ACM Logo" />
+            </div>
+            <div className={styles.whyACMContent}>
+              <h2>{t('why_acm_title')}</h2>
+              <div className={styles.whyACMTexts}>
+                <div className={styles.whyACMBlock}>
+                  <h3>{t('why_acm_global_title')}</h3>
+                  <p>{t('why_acm_global_text')}</p>
+                </div>
+                <div className={styles.whyACMBlock}>
+                  <h3>{t('why_acm_chapter_title')}</h3>
+                  <p>{t('why_acm_chapter_text')}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Elevator Pitch */}
         <section className={styles.pitch}>
           <div className={styles.sectionInner}>
@@ -97,13 +117,15 @@ export default async function Home() {
             </div>
             <div className={styles.newsGrid}>
               {news.map((item) => (
-                <article key={item.id} className={styles.newsCard}>
-                  <img src={item.image} alt={item.title} />
-                  <div className={styles.newsContent}>
-                    <span>{item.date}</span>
-                    <h3>{item.title}</h3>
-                  </div>
-                </article>
+                <Link key={item.id} href={`/${locale}/news/${item.id}`} className={styles.newsCardLink}>
+                  <article className={styles.newsCard}>
+                    <img src={item.image} alt={item.title} />
+                    <div className={styles.newsContent}>
+                      <span>{item.date}</span>
+                      <h3>{item.title}</h3>
+                    </div>
+                  </article>
+                </Link>
               ))}
             </div>
           </div>

@@ -8,10 +8,7 @@ export default async function Calendar() {
   const t = await getTranslations('Calendar');
 
   const events = [
-    { title: 'National Hackathon', date: 'October 15-17', location: 'ENISo Campus', type: 'Flagship' },
-    { title: 'AI Workshop', date: 'November 5', location: 'Amphi 1', type: 'Workshop' },
-    { title: 'ICPC Practice', date: 'Every Wednesday', location: 'Lab 4', type: 'CP' },
-    { title: 'Industry Talk', date: 'December 2', location: 'Online', type: 'Industry' },
+    { title: 'ENISo Code Clash 2026', date: 'April 2026', location: 'ENISo Campus', type: 'Competition', image: '/images/events/637472601_122175513800680217_906934261749656364_n.jpg' },
   ];
 
   return (
@@ -26,44 +23,18 @@ export default async function Calendar() {
 
         <section className={styles.spotlight}>
           <div className={styles.spotlightCard}>
+            <img src="/images/events/637472601_122175513800680217_906934261749656364_n.jpg" alt="ENISo Code Clash 2026" className={styles.spotlightImage} />
             <div className={styles.spotlightBadge}>
               <Star size={16} /> {t('flagship_title')}
             </div>
             <div className={styles.spotlightContent}>
-              <h2>ACM National Hackathon 2024</h2>
-              <p>{t('flagship_subtitle')}</p>
+              <h2>ENISo Code Clash 2026</h2>
+              <p>Our annual coding competition. Compete, learn, and showcase your skills.</p>
               <div className={styles.eventMeta}>
-                <span><CalendarIcon size={18} /> October 15-17</span>
-                <span><MapPin size={18} /> ENISo, Sousse</span>
+                <span><CalendarIcon size={18} /> April 2026</span>
+                <span><MapPin size={18} /> ENISo Campus, Sousse</span>
               </div>
-              <button className={styles.registerBtn}>Register Now</button>
             </div>
-          </div>
-        </section>
-
-        <section className={styles.events}>
-          <div className={styles.sectionHeader}>
-            <h2>{t('events_title')}</h2>
-            <p>{t('events_subtitle')}</p>
-          </div>
-
-          <div className={styles.eventList}>
-            {events.map((event, i) => (
-              <div key={i} className={styles.eventItem}>
-                <div className={styles.eventDate}>
-                  <CalendarIcon size={24} />
-                  <span>{event.date}</span>
-                </div>
-                <div className={styles.eventInfo}>
-                  <h3>{event.title}</h3>
-                  <div className={styles.eventMeta}>
-                    <span><Clock size={16} /> {event.location}</span>
-                    <span className={styles.badge}>{event.type}</span>
-                  </div>
-                </div>
-                <button className={styles.detailsBtn}>Details</button>
-              </div>
-            ))}
           </div>
         </section>
       </main>

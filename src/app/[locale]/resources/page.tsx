@@ -8,8 +8,8 @@ export default async function Resources() {
   const t = await getTranslations('Resources');
 
   const projects = [
-    { name: 'Chapter Website', desc: 'The very site you are on. Built with Next.js.', link: '#' },
-    { name: 'Member Portal', desc: 'Internal tool for managing membership and events.', link: '#' },
+    { name: 'Chapter Website', desc: 'The very site you are on. Built with Next.js.', link: 'https://github.com' },
+    { name: 'Member Portal', desc: 'Internal tool for managing membership and events.', link: 'https://github.com' },
   ];
 
   const workshops = [
@@ -56,7 +56,7 @@ export default async function Resources() {
                 <div key={i} className={styles.item}>
                   <h3>{w.name}</h3>
                   <p>{w.date} - {w.type}</p>
-                  <a href="#" className={styles.link}>Access Archive</a>
+                  <a href="https://github.com" className={styles.link}>Access Archive</a>
                 </div>
               ))}
             </div>

@@ -24,6 +24,15 @@ export default async function Team() {
     { roleKey: 'cp_director', name: 'CP Director' },
   ];
 
+  const members = [
+    { id: 1, name: 'Member 1' },
+    { id: 2, name: 'Member 2' },
+    { id: 3, name: 'Member 3' },
+    { id: 4, name: 'Member 4' },
+    { id: 5, name: 'Member 5' },
+    { id: 6, name: 'Member 6' },
+  ];
+
   return (
     <div className={styles.container}>
       <Header />
@@ -57,6 +66,18 @@ export default async function Team() {
                 <h3>{member.name}</h3>
                 <span className={styles.roleLabel}>{member.roleKey.replace('_', ' ').toUpperCase()}</span>
                 <p>{t(`roles.${member.roleKey}`)}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <h2>{t('members_title')}</h2>
+          <div className={styles.memberGrid}>
+            {members.map((member) => (
+              <div key={member.id} className={styles.memberCard}>
+                <div className={styles.memberImage}></div>
+                <h3>{member.name}</h3>
               </div>
             ))}
           </div>

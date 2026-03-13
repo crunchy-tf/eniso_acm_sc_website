@@ -55,9 +55,10 @@ export default function HomeClient({ locale, t }: HomeClientProps) {
       <div className={styles.heroVisual}>
         <div className={styles.blob}></div>
         <div className={styles.floatingCard}>
+          <img src="/images/events/637472601_122175513800680217_906934261749656364_n.jpg" alt="ENISo Code Clash 2026" className={styles.cardImage} />
           <div className={styles.cardHeader}>Next Event</div>
-          <div className={styles.cardTitle}>AI Hackathon</div>
-          <div className={styles.cardFooter}>March 25, 2024</div>
+          <div className={styles.cardTitle}>ENISo Code Clash</div>
+          <div className={styles.cardFooter}>April 2026</div>
         </div>
       </div>
     </section>
