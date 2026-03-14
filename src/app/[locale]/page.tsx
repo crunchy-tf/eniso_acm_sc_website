@@ -92,22 +92,6 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* Elevator Pitch */}
-        <section className={styles.pitch}>
-          <div className={styles.sectionInner}>
-            <div className={styles.pitchText}>
-              <h2>{t('pitch_title')}</h2>
-              <p>{t('pitch_text')}</p>
-              <Link href={`/${locale}/about`} className={styles.textLink}>
-                {t('pitch_link')} <ArrowRight size={18} />
-              </Link>
-            </div>
-            <div className={styles.pitchImage}>
-              <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80" alt="Team Work" />
-            </div>
-          </div>
-        </section>
-
         {/* Latest News */}
         <section className={styles.news}>
           <div className={styles.sectionInner}>
