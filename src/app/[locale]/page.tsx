@@ -17,9 +17,26 @@ export default async function Home() {
   ];
 
   const faqs = [
-    { question: 'What is ACM?', answer: 'The Association for Computing Machinery is the world\'s largest educational and scientific computing society.' },
-    { question: 'How can I join the ENISo ACM chapter?', answer: 'You can join by filling out the application form on our "Join Us" page during recruitment seasons.' },
-    { question: 'Do I need to be a CS student?', answer: 'While most members are from CS, we welcome students from all engineering backgrounds at ENISo who are passionate about computing.' },
+    {
+      question: 'What is ACM?',
+      answer: 'The Association for Computing Machinery (ACM) is the world’s largest educational and scientific computing society. It connects students, researchers, and professionals in computer science and related fields.',
+    },
+    {
+      question: 'What is an ACM Student Chapter?',
+      answer: 'An ACM Student Chapter is a university-based organization that promotes learning, collaboration, and professional development in computing through events, workshops, and projects.',
+    },
+    {
+      question: 'Do I have to be an engineering student at ENISo to join?',
+      answer: 'Our chapter is open to students from all academic backgrounds who are interested in technology, programming, innovation, leadership, and teamwork. This includes students in the preparatory cycle, engineering cycle, bachelor\'s (license), master\'s, and PhD programs. You do not need to be a student at ENISo to join; all university students are welcome to participate.',
+    },
+    {
+      question: 'Do I need to be an ACM member to participate?',
+      answer: 'No, you do not need to be an official ACM member to attend or participate in our chapter’s activities. However, we strongly encourage students to become members of the official Association for Computing Machinery (ACM) to benefit from international resources, certifications, events, and professional opportunities. We are happy to guide you through the process and help you access all available benefits.',
+    },
+    {
+      question: 'How can I become a member?',
+      answer: 'To become a member of our chapter, please follow these steps:\n\n1. Complete the chapter registration form.\n\n2. Pay the required membership fee (if applicable).\n\n3. Attend a short interview with our team.\n\n4. Receive confirmation and officially join the chapter.\n\nOur membership form is open throughout the academic year, except during the summer break. We encourage interested students to apply when registrations are available.',
+    },
   ];
 
   const sponsors = [
@@ -72,20 +89,35 @@ export default async function Home() {
         {/* Why ACM Section */}
         <section className={styles.whyACM}>
           <div className={styles.sectionInner}>
-            <div className={styles.whyACMLogo}>
-              <img src="/images/sponsors/Association_for_Computing_Machinery_(ACM)_logo.svg.png" alt="ACM Logo" />
-            </div>
-            <div className={styles.whyACMContent}>
-              <h2>{t('why_acm_title')}</h2>
-              <div className={styles.whyACMTexts}>
-                <div className={styles.whyACMBlock}>
-                  <h3>{t('why_acm_global_title')}</h3>
-                  <p>{t('why_acm_global_text')}</p>
-                </div>
-                <div className={styles.whyACMBlock}>
-                  <h3>{t('why_acm_chapter_title')}</h3>
-                  <p>{t('why_acm_chapter_text')}</p>
-                </div>
+            <h2 className={styles.whyACMTitle}>{t('why_acm_title')}</h2>
+            <div className={styles.whyACMGrid}>
+              <div className={styles.whyACMLogo}>
+                <img src="/images/sponsors/Association_for_Computing_Machinery_(ACM)_logo.svg.png" alt="ACM Logo" />
+              </div>
+
+              <div className={styles.whyACMBlock}>
+                <h3>{t('why_acm_global_title')}</h3>
+                <p>{t('why_acm_global_text')}</p>
+              </div>
+
+              <div className={styles.whyACMChapterLogo}>
+                <img src="/images/logos/logo.jpg" alt="ENISo ACM Student Chapter logo" />
+              </div>
+
+              <div className={styles.whyACMBlock}>
+                <h3>{t('why_acm_chapter_title')}</h3>
+                <p>
+                  At ENISo, we transform bold ideas into real code, real events, and real impact. Through hack nights, mentorship, and hands-on projects that actually ship, we’re building the future of computing together. {' '}
+                  <a
+                    href="https://www.acm.org/chapters/find-a-chapter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.externalLink}
+                  >
+                    Find us on ACM.
+                  </a>{' '}
+                  Get involved, and be part of the team driving innovation forward.
+                </p>
               </div>
             </div>
           </div>
