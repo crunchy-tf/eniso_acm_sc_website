@@ -35,7 +35,7 @@ export default async function Home() {
     },
     {
       question: 'How can I become a member?',
-      answer: 'To become a member of our chapter, please follow these steps:\n\n1. Complete the chapter registration form.\n\n2. Pay the required membership fee (if applicable).\n\n3. Attend a short interview with our team.\n\n4. Receive confirmation and officially join the chapter.\n\nOur membership form is open throughout the academic year, except during the summer break. We encourage interested students to apply when registrations are available.',
+      answer: 'To become a member of our chapter, please follow these steps:\n\n1. Complete the chapter registration form.\n\n2. Attend a short interview with our team.\n\n3. Pay the required membership fee.\n\n4. Receive confirmation and officially join the chapter.\n\nOur membership form is open throughout the academic year, except during the summer break. We encourage interested students to apply when registrations are available.',
     },
   ];
 

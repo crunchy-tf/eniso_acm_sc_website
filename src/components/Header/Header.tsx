@@ -25,7 +25,6 @@ export default function Header() {
     { name: t('about'), path: '/about' },
     { name: t('calendar'), path: '/calendar' },
     { name: t('team'), path: '/team' },
-    { name: t('resources'), path: '/resources' },
     { name: t('news'), path: '/news' },
     { name: t('join'), path: '/join' },
     { name: t('contact'), path: '/contact' },

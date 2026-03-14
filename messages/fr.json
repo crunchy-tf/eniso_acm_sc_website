@@ -21,7 +21,7 @@
   },
   "Navigation": {
     "home": "Accueil",
-    "about": "À Propos",
+    "about": "Notre Vision",
     "calendar": "Calendrier",
     "team": "Équipe",
     "resources": "Ressources",
@@ -30,16 +30,36 @@
     "contact": "Contact"
   },
   "About": {
-    "hero_title": "À Propos de Notre Chapitre",
-    "hero_subtitle": "Expliquer notre mission, notre structure et notre héritage.",
-    "mission_title": "Mission et Vision",
-    "mission_text": "Notre mission est de favoriser une communauté dynamique de professionnels de l'informatique à l'ENISo. Nous envisageons un avenir où chaque étudiant dispose des outils et du réseau nécessaires pour innover et diriger dans le paysage technologique mondial.",
-    "acm_title": "La Connexion ACM",
-    "acm_text": "Faire partie du réseau mondial de l'ACM connecte nos membres à la plus grande société informatique éducative et scientifique au monde, offrant un accès aux bibliothèques numériques, aux compétitions internationales et à un vaste réseau professionnel.",
-    "sigs_title": "Comités et SIGs",
-    "sigs_text": "Nos groupes d'intérêt spécial (SIG) se concentrent sur des domaines de niche comme l'IA, la programmation compétitive et le développement Web, permettant aux membres d'approfondir leurs passions.",
-    "history_title": "Notre Histoire",
-    "history_text": "Fondé à l'ENISo, notre chapitre est passé d'un petit groupe de passionnés à un chapitre étudiant officiel charté par l'ACM, organisant des hackathons nationaux et des ateliers."
+    "hero_title": "Notre Vision",
+    "hero_subtitle": "Ce sur quoi nous nous concentrons",
+    "hero_intro": "Notre chapitre s'articule autour de cinq piliers fondamentaux qui définissent notre mission et façonnent tout ce que nous entreprenons. Ces piliers orientent nos événements, initiatives et opportunités pour les membres.",
+    "pillars": {
+      "community": {
+        "title": "Communauté",
+        "text": "Au cœur de notre chapitre se trouve une communauté dynamique d'étudiants passionnés par l'informatique et la technologie. Nous visons à créer un environnement accueillant où les membres peuvent rencontrer des pairs partageant les mêmes idées, collaborer sur des projets et grandir ensemble. Grâce à des événements sociaux, des projets d'équipe et un apprentissage collaboratif, nous favorisons une culture où la curiosité, la créativité et le soutien mutuel prospèrent."
+      },
+      "technical": {
+        "title": "Compétences Techniques",
+        "text": "Nous pensons que la meilleure façon d'apprendre la technologie est de construire et de faire. Notre chapitre organise des ateliers, des sessions de codage et des événements techniques pratiques qui aident les membres à développer des compétences concrètes au-delà de la salle de classe. Les membres acquièrent de l'expérience avec des outils modernes, des langages de programmation et des pratiques de développement logiciel dans le domaine plus large de l'informatique."
+      },
+      "industry": {
+        "title": "Connexions Industrielles",
+        "text": "Préparer les étudiants aux carrières du monde réel est une partie essentielle de notre mission. Nous construisons des ponts entre les étudiants et l'industrie technologique en organisant des conférences invitées, des événements de réseautage et des collaborations avec des entreprises. Grâce à ces initiatives, les membres obtiennent des informations précieuses sur les parcours professionnels et les opportunités au sein de la communauté informatique mondiale soutenue par l'Association for Computing Machinery."
+      },
+      "academic": {
+        "title": "Recherche et Croissance Académique",
+        "text": "Pour les membres intéressés par une exploration académique plus approfondie, notre chapitre promeut l'engagement en recherche et la curiosité intellectuelle. Nous organisons des conférences de recherche, des ateliers académiques et des opportunités de mentorat qui introduisent les étudiants au monde de la découverte scientifique et de l'innovation. Notre objectif est d'aider les étudiants à développer les compétences nécessaires aux études supérieures, aux stages de recherche et aux contributions académiques."
+      },
+      "competitive": {
+        "title": "Programmation Compétitive",
+        "text": "Nous cultivons une forte culture de réflexion algorithmique et de résolution de problèmes grâce à des sessions d'entraînement structurées, des concours internes et une pratique collaborative. Nos membres travaillent régulièrement sur des structures de données, des algorithmes et des stratégies de concours pour renforcer leurs performances sous contrainte de temps. Nous préparons et soutenons activement des équipes pour participer à des compétitions majeures.",
+        "list": {
+          "tcpc": "Tunisian Collegiate Programming Contest (TCPC)",
+          "acpc": "Arab Collegiate Programming Contest (ACPC)",
+          "icpc": "ACM International Collegiate Programming Contest (ICPC)"
+        }
+      }
+    }
   },
   "Team": {
     "hero_title": "Notre Équipe",
@@ -85,14 +105,30 @@
   "Join": {
     "hero_title": "Rejoignez-nous",
     "hero_subtitle": "Convertissez votre passion en une adhésion officielle à l'ACM.",
-    "why_title": "Pourquoi nous rejoindre ?",
-    "process_title": "Le processus de recrutement",
-    "form_title": "Le formulaire d'inscription",
-    "form_subtitle": "Un formulaire intégré et facile à remplir pour s'inscrire officiellement.",
-    "form_name": "Nom complet",
-    "form_email": "Adresse e-mail",
-    "form_reason": "Pourquoi voulez-vous nous rejoindre ?",
-    "form_submit": "Soumettre la candidature"
+    "steps_title": "Comment nous rejoindre",
+    "steps_intro": "Suivez ces étapes pour devenir membre de notre chapitre. La plupart des étapes ne prennent que quelques minutes et tout est conçu pour vous aider à démarrer rapidement.",
+    "steps": {
+      "application": {
+        "title": "Remplissez le formulaire d'inscription",
+        "desc": "Complétez le formulaire d'adhésion officiel du chapitre ACM pour démarrer votre candidature."
+      },
+      "interview": {
+        "title": "Participez à une courte interview avec notre équipe",
+        "desc": "Discutez avec notre équipe pour que nous puissions connaître vos centres d'intérêt et vous proposer des opportunités adaptées."
+      },
+      "payment": {
+        "title": "Payez les frais d'adhésion requis",
+        "desc": "Soumettez les frais requis (le cas échéant) pour confirmer votre place au sein du chapitre."
+      },
+      "confirmation": {
+        "title": "Recevez la confirmation et rejoignez officiellement le chapitre",
+        "desc": "Une fois approuvé, vous recevrez un message de bienvenue avec les prochaines étapes et comment rejoindre notre communauté."
+      }
+    },
+    "membership_open_note": "Notre formulaire d'adhésion est ouvert tout au long de l'année universitaire, sauf pendant les vacances d'été. Nous encourageons les étudiants intéressés à postuler lorsque les inscriptions sont disponibles.",
+    "cta_title": "Prêt à postuler ?",
+    "cta_text": "Lorsque vous êtes prêt, cliquez sur le bouton ci-dessous pour ouvrir le formulaire d'adhésion officiel. Nous examinons régulièrement les candidatures et vous répondrons rapidement.",
+    "cta_button": "Ouvrir le formulaire d'adhésion"
   },
   "Contact": {
     "hero_title": "Contactez-nous",

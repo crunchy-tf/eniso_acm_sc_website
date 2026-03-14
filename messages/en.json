@@ -21,7 +21,7 @@
   },
   "Navigation": {
     "home": "Home",
-    "about": "About Us",
+    "about": "Our Vision",
     "calendar": "Calendar",
     "team": "Team",
     "resources": "Resources",
@@ -30,16 +30,36 @@
     "contact": "Contact Us"
   },
   "About": {
-    "hero_title": "About Our Chapter",
-    "hero_subtitle": "Explaining our purpose, structure, and legacy.",
-    "mission_title": "Mission & Vision",
-    "mission_text": "Our mission is to foster a vibrant community of computing professionals at ENISo. We envision a future where every student has the tools and network to innovate and lead in the global tech landscape.",
-    "acm_title": "The ACM Connection",
-    "acm_text": "Being part of the global ACM network connects our members to the world's largest educational and scientific computing society, offering access to digital libraries, international competitions, and a vast professional network.",
-    "sigs_title": "Committees and SIGs",
-    "sigs_text": "Our Special Interest Groups (SIGs) focus on niche areas like AI, Competitive Programming, and Web Development, allowing members to dive deep into their passions.",
-    "history_title": "Our History",
-    "history_text": "Founded at ENISo, our chapter has grown from a small group of enthusiasts to an official chartered ACM student chapter, hosting national hackathons and workshops."
+    "hero_title": "Our Vision",
+    "hero_subtitle": "What We Focus On",
+    "hero_intro": "Our chapter is built around five core pillars that define our mission and shape everything we do. These pillars guide our events, initiatives, and opportunities for members.",
+    "pillars": {
+      "community": {
+        "title": "Community",
+        "text": "At the heart of our chapter is a vibrant community of students passionate about computing and technology. We aim to create a welcoming environment where members can meet like-minded peers, collaborate on ideas, and grow together. Through social events, team projects, and collaborative learning, we foster a culture where curiosity, creativity, and mutual support thrive."
+      },
+      "technical": {
+        "title": "Technical Skills",
+        "text": "We believe the best way to learn technology is by building and doing. Our chapter organizes workshops, coding sessions, and hands-on technical events that help members develop practical skills beyond the classroom. Members gain experience with modern tools, programming languages, and software development practices within the broader field of Computer Science."
+      },
+      "industry": {
+        "title": "Industry Connections",
+        "text": "Preparing students for real-world careers is a key part of our mission. We build bridges between students and the technology industry by hosting guest speakers, networking events, and company collaborations. Through these initiatives, members gain valuable insight into professional pathways and opportunities within the global computing community supported by the Association for Computing Machinery."
+      },
+      "academic": {
+        "title": "Research & Academic Growth",
+        "text": "For members interested in deeper academic exploration, our chapter promotes research engagement and intellectual curiosity. We organize research talks, academic workshops, and mentorship opportunities that introduce students to the world of scientific discovery and innovation. Our goal is to help students develop the skills needed for graduate studies, research internships, and academic contributions."
+      },
+      "competitive": {
+        "title": "Competitive Programming",
+        "text": "We foster a strong culture of algorithmic thinking and problem-solving through structured training sessions, internal contests, and collaborative practice. Our members regularly work on data structures, algorithms, and contest strategies to strengthen their performance under timed conditions. We actively prepare and support teams to participate in major competitions.",
+        "list": {
+          "tcpc": "Tunisian Collegiate Programming Contest (TCPC)",
+          "acpc": "Arab Collegiate Programming Contest (ACPC)",
+          "icpc": "ACM International Collegiate Programming Contest (ICPC)"
+        }
+      }
+    }
   },
   "Team": {
     "hero_title": "Our Team",
@@ -85,14 +105,30 @@
   "Join": {
     "hero_title": "Join Us",
     "hero_subtitle": "Convert your passion into official ACM membership.",
-    "why_title": "Why Join Us?",
-    "process_title": "The Recruitment Process",
-    "form_title": "The Application Form",
-    "form_subtitle": "An embedded, easy-to-fill form to officially register.",
-    "form_name": "Full Name",
-    "form_email": "Email Address",
-    "form_reason": "Why do you want to join?",
-    "form_submit": "Apply Now"
+    "steps_title": "How to Join",
+    "steps_intro": "Follow these steps to become a member of our chapter. Most steps take just a few minutes, and everything is designed to help you get started quickly.",
+    "steps": {
+      "application": {
+        "title": "Complete the chapter registration form",
+        "desc": "Fill out the official ACM chapter membership form to start your application."
+      },
+      "interview": {
+        "title": "Attend a short interview with our team",
+        "desc": "Chat with our team so we can learn about your interests and match you with opportunities."
+      },
+      "payment": {
+        "title": "Pay the required membership fee",
+        "desc": "Submit the required fee (if applicable) to confirm your spot in the chapter."
+      },
+      "confirmation": {
+        "title": "Receive confirmation and officially join the chapter",
+        "desc": "Once approved, you’ll get a welcome message with next steps and how to join our community."
+      }
+    },
+    "membership_open_note": "Our membership form is open throughout the academic year, except during the summer break. We encourage interested students to apply when registrations are available.",
+    "cta_title": "Ready to Apply?",
+    "cta_text": "When you’re ready, click the button below to open the official membership form. We review submissions regularly and will follow up soon.",
+    "cta_button": "Open Membership Form"
   },
   "Contact": {
     "hero_title": "Contact Us",
