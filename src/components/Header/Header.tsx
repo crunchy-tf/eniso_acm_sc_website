@@ -43,8 +43,18 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.logo}>
-          <Link href={`/${locale}`}>
-            <span className={styles.acm}>ENISo ACM</span>
+          <Link href={`/${locale}`} className={styles.logoLink}>
+            <img
+              src="/images/logos/icon.png"
+              alt="ENISo ACM logo"
+              className={styles.logoIcon}
+              width={44}
+              height={44}
+            />
+            <div className={styles.logoLabel}>
+              <span className={styles.logoLine}>ENISo</span>
+              <span className={styles.logoLine}>ACM</span>
+            </div>
           </Link>
         </div>
 

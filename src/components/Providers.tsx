@@ -2,11 +2,12 @@
 
 import {ThemeProvider} from 'next-themes';
 import {NextIntlClientProvider} from 'next-intl';
+import type { AbstractIntlMessages } from 'use-intl';
 
 export function Providers({children, locale, messages}: {
   children: React.ReactNode;
   locale: string;
-  messages: any;
+  messages: AbstractIntlMessages;
 }) {
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>

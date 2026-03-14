@@ -24,11 +24,34 @@
   justify-content: space-between;
 }
 
-.logo .acm {
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.logoIcon {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+}
+
+.logoLabel {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.logoLine {
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 900;
   color: var(--primary);
-  letter-spacing: -0.025em;
 }
 
 .desktopNav {
@@ -44,14 +67,21 @@
 
 .desktopNav a {
   font-size: 0.875rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--muted-foreground);
-  transition: color 0.2s;
+  padding: 0.55rem 0.8rem;
+  border-radius: 0.75rem;
+  transition: color 0.2s, background-color 0.2s;
 }
 
-.desktopNav a:hover,
+.desktopNav a:hover {
+  color: var(--primary);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 .desktopNav a.active {
   color: var(--primary);
+  background-color: rgba(0, 0, 0, 0.08);
 }
 
 .actions {

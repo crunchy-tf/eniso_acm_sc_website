@@ -1,15 +1,11 @@
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import styles from './calendar.module.css';
-import {Calendar as CalendarIcon, MapPin, Clock, Star} from 'lucide-react';
+import {Calendar as CalendarIcon, MapPin, Star} from 'lucide-react';
 import {getTranslations} from 'next-intl/server';
 
 export default async function Calendar() {
   const t = await getTranslations('Calendar');
-
-  const events = [
-    { title: 'ENISo Code Clash 2026', date: 'April 2026', location: 'ENISo Campus', type: 'Competition', image: '/images/events/637472601_122175513800680217_906934261749656364_n.jpg' },
-  ];
 
   return (
     <div className={styles.container}>

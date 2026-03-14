@@ -1,4 +1,3 @@
-import {useTranslations} from 'next-intl';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import Accordion from '@/components/Accordion/Accordion';

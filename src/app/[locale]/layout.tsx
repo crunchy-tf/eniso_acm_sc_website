@@ -1,8 +1,16 @@
-import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {Providers} from '@/components/Providers';
 import '../globals.css';
 import {Inter} from 'next/font/google';
+
+export const metadata = {
+  title: 'ENISo ACM',
+  description: 'ENISo ACM Student Chapter',
+  icons: {
+    icon: '/images/logos/icon.png',
+    shortcut: '/images/logos/icon.png',
+  },
+};
 
 const inter = Inter({subsets: ['latin']});
 

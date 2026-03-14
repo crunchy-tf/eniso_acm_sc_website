@@ -25,7 +25,7 @@ export default function HomeClient({ locale, t }: HomeClientProps) {
           transition={{ duration: 0.6 }}
           className={styles.title}
         >
-          Building the Future of <br /><span>Computing at ENISo</span>
+          {t.title}
         </motion.h1>
         
         <motion.p 
@@ -34,7 +34,7 @@ export default function HomeClient({ locale, t }: HomeClientProps) {
           transition={{ duration: 0.6, delay: 0.2 }}
           className={styles.description}
         >
-          The official chartered ACM student chapter at the National School of Engineers of Sousse. Join a vibrant community of innovators, builders, and leaders.
+          {t.description}
         </motion.p>
 
         <motion.div 
@@ -44,10 +44,10 @@ export default function HomeClient({ locale, t }: HomeClientProps) {
           className={styles.ctas}
         >
           <Link href={`/${locale}/join`} className={styles.primaryBtn}>
-            Join the Chapter <ArrowRight size={20} />
+            {t.cta} <ArrowRight size={20} />
           </Link>
           <Link href={`/${locale}/calendar`} className={styles.secondaryBtn}>
-            Upcoming Events
+            {t.upcoming}
           </Link>
         </motion.div>
       </div>
