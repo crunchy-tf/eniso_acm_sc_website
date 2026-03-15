@@ -48,9 +48,10 @@ export default function Header() {
               src="/images/logos/icon.png"
               alt="ACM ENISo logo"
               className={styles.logoIcon}
-              width={44}
-              height={44}
+              width={256}
+              height={256}
               priority
+              quality={100}
             />
             <div className={styles.logoLabel}>
               <span className={styles.logoLine}>ACM</span>
