@@ -46,15 +46,15 @@ export default function Header() {
           <Link href={`/${locale}`} className={styles.logoLink}>
             <Image
               src="/images/logos/icon.png"
-              alt="ENISo ACM logo"
+              alt="ACM ENISo logo"
               className={styles.logoIcon}
               width={44}
               height={44}
               priority
             />
             <div className={styles.logoLabel}>
-              <span className={styles.logoLine}>ENISo</span>
               <span className={styles.logoLine}>ACM</span>
+              <span className={styles.logoLine}>@ ENISo</span>
             </div>
           </Link>
         </div>

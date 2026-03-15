@@ -1,7 +1,7 @@
 {
   "Index": {
-    "title": "ENISo ACM Student Chapter",
-    "description": "The official chartered ACM student chapter at ENISo.",
+    "title": "ACM ENISo Student Chapter",
+    "description": "The official chartered ACM Student Chapter at ENISo.",
     "cta": "Join Us",
     "stats": {
       "members": "Members",
@@ -16,11 +16,11 @@
       "q2": "What is an ACM Student Chapter?",
       "a2": "An ACM Student Chapter is a university-based organization that promotes learning, collaboration, and professional development in computing through events, workshops, and projects.",
       "q3": "Do I have to be an engineering student at ENISo to join?",
-      "a3": "Our chapter is open to students from all academic backgrounds who are interested in technology, programming, innovation, leadership, and teamwork. This includes students in the preparatory cycle, engineering cycle, bachelor’s (license), master’s, and PhD programs. You do not need to be a student at ENISo to join; all university students are welcome to participate.",
+      "a3": "Our Student Chapter is open to students from all academic backgrounds who are interested in technology, programming, innovation, leadership, and teamwork. This includes students in the preparatory cycle, engineering cycle, bachelor’s (license), master’s, and PhD programs. You do not need to be a student at ENISo to join; all university students are welcome to participate.",
       "q4": "Do I need to be an ACM member to participate?",
-      "a4": "No, you do not need to be an official ACM member to attend or participate in our chapter’s activities. However, we strongly encourage students to become members of the official Association for Computing Machinery (ACM) to benefit from international resources, certifications, events, and professional opportunities. We are happy to guide you through the process and help you access all available benefits.",
+      "a4": "No, you do not need to be an official ACM member to attend or participate in our Student Chapter’s activities. However, we strongly encourage students to become members of the official Association for Computing Machinery (ACM) to benefit from international resources, certifications, events, and professional opportunities. We are happy to guide you through the process and help you access all available benefits.",
       "q5": "How can I become a member?",
-      "a5": "To become a member of our chapter, please follow these steps:\n\n1. Complete the chapter registration form.\n\n2. Attend a short interview with our team.\n\n3. Pay the required membership fee.\n\n4. Receive confirmation and officially join the chapter.\n\nOur membership form is open throughout the academic year, except during the summer break. We encourage interested students to apply when registrations are available."
+      "a5": "To become a member of our Student Chapter, please follow these steps:\n\n1. Complete the Student Chapter registration form.\n\n2. Attend a short interview with our team.\n\n3. Pay the required membership fee.\n\n4. Receive confirmation and officially join the Student Chapter.\n\nOur membership form is open throughout the academic year, except during the summer break. We encourage interested students to apply when registrations are available."
     },
     "pitch_text": "We are more than just a club. We are an official part of the global ACM network, dedicated to advancing computing as a science and profession. Our mission is to provide students with the resources, mentorship, and opportunities needed to excel in the tech industry.",
     "pitch_link": "Learn more about our legacy",
@@ -38,7 +38,7 @@
     "news_view_all": "View All",
     "sponsors_title": "Our Partners & Sponsors",
     "faq_title": "Frequently Asked Questions",
-    "faq_subtitle": "Everything you need to know about our chapter."
+    "faq_subtitle": "Everything you need to know about our Student Chapter."
   },
   "Navigation": {
     "home": "Home",
@@ -66,20 +66,20 @@
     "email": "eniso.acm.studentchapter@gmail.com",
     "phone": "+216 53003253",
     "scroll_top": "Back to Top",
-    "copyright": "© {year} ENISo ACM Student Chapter. All rights reserved."
+    "copyright": "© {year} ACM ENISo Student Chapter. All rights reserved."
   },
   "About": {
     "hero_title": "Our Vision",
     "hero_subtitle": "What We Focus On",
-    "hero_intro": "Our chapter is built around five core pillars that define our mission and shape everything we do. These pillars guide our events, initiatives, and opportunities for members.",
+    "hero_intro": "Our Student Chapter is built around five core pillars that define our mission and shape everything we do. These pillars guide our events, initiatives, and opportunities for members.",
     "pillars": {
       "community": {
         "title": "Community",
-        "text": "At the heart of our chapter is a vibrant community of students passionate about computing and technology. We aim to create a welcoming environment where members can meet like-minded peers, collaborate on ideas, and grow together. Through social events, team projects, and collaborative learning, we foster a culture where curiosity, creativity, and mutual support thrive."
+        "text": "At the heart of our Student Chapter is a vibrant community of students passionate about computing and technology. We aim to create a welcoming environment where members can meet like-minded peers, collaborate on ideas, and grow together. Through social events, team projects, and collaborative learning, we foster a culture where curiosity, creativity, and mutual support thrive."
       },
       "technical": {
         "title": "Technical Skills",
-        "text": "We believe the best way to learn technology is by building and doing. Our chapter organizes workshops, coding sessions, and hands-on technical events that help members develop practical skills beyond the classroom. Members gain experience with modern tools, programming languages, and software development practices within the broader field of Computer Science."
+        "text": "We believe the best way to learn technology is by building and doing. Our Student Chapter organizes workshops, coding sessions, and hands-on technical events that help members develop practical skills beyond the classroom. Members gain experience with modern tools, programming languages, and software development practices within the broader field of Computer Science."
       },
       "industry": {
         "title": "Industry Connections",
@@ -87,7 +87,7 @@
       },
       "academic": {
         "title": "Research & Academic Growth",
-        "text": "For members interested in deeper academic exploration, our chapter promotes research engagement and intellectual curiosity. We organize research talks, academic workshops, and mentorship opportunities that introduce students to the world of scientific discovery and innovation. Our goal is to help students develop the skills needed for graduate studies, research internships, and academic contributions."
+        "text": "For members interested in deeper academic exploration, our Student Chapter promotes research engagement and intellectual curiosity. We organize research talks, academic workshops, and mentorship opportunities that introduce students to the world of scientific discovery and innovation. Our goal is to help students develop the skills needed for graduate studies, research internships, and academic contributions."
       },
       "competitive": {
         "title": "Competitive Programming",
@@ -111,18 +111,18 @@
     "alumni_card_2023": "Class of 2023 - Google, Meta, Microsoft",
     "alumni_card_2022": "Class of 2022 - Amazon, Netflix, Apple",
     "roles": {
-      "chair": "The highest leadership position of the chapter. Sets the overall vision, direction, and culture of the club. Presides over all meetings, makes final decisions, represents the chapter at university and ACM national levels, and ensures all committees are functioning effectively. Accountable for the chapter's success as a whole.",
+      "chair": "The highest leadership position of the Student Chapter. Sets the overall vision, direction, and culture of the club. Presides over all meetings, makes final decisions, represents the Student Chapter at university and ACM national levels, and ensures all committees are functioning effectively. Accountable for the Student Chapter's success as a whole.",
       "vice_chair": "Supports the Chair in all duties and steps in as acting Chair when needed. Oversees inter-committee coordination, ensures directors are meeting their goals, and acts as the internal operations manager. Often the person officers go to for day-to-day guidance.",
-      "treasurer": "Manages all financial matters of the chapter. Responsible for budgeting, tracking expenditures, collecting dues, processing reimbursements, applying for university funding, and maintaining transparent financial records. Coordinates with directors on event budgets and reports finances to the executive board regularly.",
-      "membership_chair": "Owns the full member lifecycle — from recruitment and onboarding to engagement and retention. Tracks membership rosters, manages dues status, coordinates welcome events, and ensures new members feel integrated into the chapter community.",
-      "secretary": "The organizational backbone of the executive board. Records and distributes meeting minutes, maintains official chapter documents, manages internal communications and announcements, coordinates scheduling, and ensures the chapter meets ACM national reporting requirements.",
-      "faculty_sponsor": "A faculty or staff member who serves as the chapter's institutional anchor. Provides academic guidance, signs off on official university and ACM paperwork, lends credibility to the chapter, connects students with research and professional opportunities, and advises leadership on long-term strategy.",
-      "events_director": "Oversees the planning, coordination, and execution of all chapter events. Manages the semester event calendar, coordinates logistics like venues, catering, and equipment, and ensures events run smoothly from conception to wrap-up. Works closely with Marketing and Technical directors for promotion and support.",
-      "marketing_director": "Responsible for the chapter's brand, visibility, and communications. Oversees all promotional materials, social media presence, and public-facing messaging. Ensures consistent branding across all channels and manages the chapter's reputation both on campus and externally.",
-      "technical_director": "Leads all technical initiatives within the chapter. Oversees the chapter website, internal tools, member projects, and technical workshops. Fosters a culture of hands-on learning and ensures members have opportunities to build real technical skills.",
-      "research_director": "Bridges the gap between the chapter and academic life. Organizes research talks, academic workshops, study resources, and faculty connections. Supports members interested in graduate school, research internships, and academic publishing.",
-      "industry_director": "Manages all relationships between the chapter and the professional world. Reaches out to companies for sponsorships, coordinates corporate speakers and recruiters, and secures funding and resources from industry partners. Maintains a pipeline of company contacts and tracks sponsorship agreements.",
-      "cp_director": "Leads all competitive programming and technical contest efforts. Organizes practice sessions, coaches members for competitions like ICPC, and fosters a culture of algorithmic thinking and problem-solving excellence within the chapter."
+      "treasurer": "Manages all financial matters of the Student Chapter. Responsible for budgeting, tracking expenditures, collecting dues, processing reimbursements, applying for university funding, and maintaining transparent financial records. Coordinates with directors on event budgets and reports finances to the executive board regularly.",
+      "membership_chair": "Owns the full member lifecycle — from recruitment and onboarding to engagement and retention. Tracks membership rosters, manages dues status, coordinates welcome events, and ensures new members feel integrated into the Student Chapter community.",
+      "secretary": "The organizational backbone of the executive board. Records and distributes meeting minutes, maintains official Student Chapter documents, manages internal communications and announcements, coordinates scheduling, and ensures the Student Chapter meets ACM national reporting requirements.",
+      "faculty_sponsor": "A faculty or staff member who serves as the Student Chapter's institutional anchor. Provides academic guidance, signs off on official university and ACM paperwork, lends credibility to the Student Chapter, connects students with research and professional opportunities, and advises leadership on long-term strategy.",
+      "events_director": "Oversees the planning, coordination, and execution of all Student Chapter events. Manages the semester event calendar, coordinates logistics like venues, catering, and equipment, and ensures events run smoothly from conception to wrap-up. Works closely with Marketing and Technical directors for promotion and support.",
+      "marketing_director": "Responsible for the Student Chapter's brand, visibility, and communications. Oversees all promotional materials, social media presence, and public-facing messaging. Ensures consistent branding across all channels and manages the Student Chapter's reputation both on campus and externally.",
+      "technical_director": "Leads all technical initiatives within the Student Chapter. Oversees the Student Chapter website, internal tools, member projects, and technical workshops. Fosters a culture of hands-on learning and ensures members have opportunities to build real technical skills.",
+      "research_director": "Bridges the gap between the Student Chapter and academic life. Organizes research talks, academic workshops, study resources, and faculty connections. Supports members interested in graduate school, research internships, and academic publishing.",
+      "industry_director": "Manages all relationships between the Student Chapter and the professional world. Reaches out to companies for sponsorships, coordinates corporate speakers and recruiters, and secures funding and resources from industry partners. Maintains a pipeline of company contacts and tracks sponsorship agreements.",
+      "cp_director": "Leads all competitive programming and technical contest efforts. Organizes practice sessions, coaches members for competitions like ICPC, and fosters a culture of algorithmic thinking and problem-solving excellence within the Student Chapter."
     }
   },
   "Calendar": {
@@ -145,7 +145,7 @@
     "placeholder_section_title_2": "What’s next",
     "placeholder_section_desc_2": "We’ll be adding learning paths, project templates, workshop recordings, and more as soon as we have high quality content ready to share.",
     "projects_title": "Open Source Projects",
-    "projects_subtitle": "Repositories, documentation, and ways to contribute to chapter-led software.",
+    "projects_subtitle": "Repositories, documentation, and ways to contribute to Student Chapter-led software.",
     "workshops_title": "Workshops Archive",
     "workshops_subtitle": "Archives of presentation slides, code snippets, and video recordings from past sessions.",
     "cp_title": "Competitive Programming (CP) Corner",
@@ -155,15 +155,15 @@
     "hero_title": "Join Us",
     "hero_subtitle": "Convert your passion into official ACM membership.",
     "steps_title": "How to Join",
-    "steps_intro": "Follow these steps to become a member of our chapter. Most steps take just a few minutes, and everything is designed to help you get started quickly.",
+    "steps_intro": "Follow these steps to become a member of our Student Chapter. Most steps take just a few minutes, and everything is designed to help you get started quickly.",
     "alert_success": "Thank you for applying! We will review your application and get back to you soon.",
     "placeholder_name": "John Doe",
     "placeholder_email": "john@example.com",
     "placeholder_reason": "Tell us about your interest in computing...",
     "steps": {
       "application": {
-        "title": "Complete the chapter registration form",
-        "desc": "Fill out the official ACM chapter membership form to start your application."
+        "title": "Complete the Student Chapter registration form",
+        "desc": "Fill out the official ACM Student Chapter membership form to start your application."
       },
       "interview": {
         "title": "Attend a short interview with our team",
@@ -171,10 +171,10 @@
       },
       "payment": {
         "title": "Pay the required membership fee",
-        "desc": "Submit the required fee (if applicable) to confirm your spot in the chapter."
+        "desc": "Submit the required fee (if applicable) to confirm your spot in the Student Chapter."
       },
       "confirmation": {
-        "title": "Receive confirmation and officially join the chapter",
+        "title": "Receive confirmation and officially join the Student Chapter",
         "desc": "Once approved, you’ll get a welcome message with next steps and how to join our community."
       }
     },
@@ -202,6 +202,6 @@
     "article_1_title": "Announcing the 2026 ENISo Code Clash",
     "article_1_description": "Our annual coding competition. Compete, learn, and showcase your skills.",
     "article_1_date": "March 13, 2026",
-    "article_1_author": "ENISo ACM"
+    "article_1_author": "ACM ENISo"
   }
 }

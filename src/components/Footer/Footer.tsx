@@ -19,7 +19,7 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.grid}>
           <div className={styles.info}>
-            <h3 className={styles.logo}>ENISo ACM</h3>
+            <h3 className={styles.logo}>ACM @ ENISo</h3>
             <p className={styles.description}>
               {t('description')}
             </p>

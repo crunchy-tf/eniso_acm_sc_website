@@ -1,7 +1,7 @@
 {
   "Index": {
-    "title": "Chapitre Étudiant ACM ENISo",
-    "description": "Le chapitre étudiant officiel de l'ACM à l'ENISo.",
+    "title": "ACM ENISo Student Chapter",
+    "description": "Le Student Chapter officiel de l'ACM à l'ENISo.",
     "cta": "Rejoignez-nous",
     "stats": {
       "members": "Membres",
@@ -9,18 +9,18 @@
       "sponsors": "Sponsors"
     },
     "upcoming": "Événements à venir",
-    "pitch_title": "Chapitre Officiel Charté par l'ACM",
+    "pitch_title": "Student Chapter Officiel Charté par l'ACM",
     "faq": {
       "q1": "Qu'est-ce que l'ACM ?",
       "a1": "L'Association for Computing Machinery (ACM) est la plus grande société mondiale d'éducation et de science informatique. Elle met en relation des étudiants, des chercheurs et des professionnels en informatique et domaines connexes.",
-      "q2": "Qu'est-ce qu'un chapitre étudiant ACM ?",
-      "a2": "Un chapitre étudiant ACM est une organisation universitaire qui favorise l'apprentissage, la collaboration et le développement professionnel en informatique grâce à des événements, des ateliers et des projets.",
+      "q2": "Qu'est-ce qu'un ACM Student Chapter ?",
+      "a2": "Un ACM Student Chapter est une organisation universitaire qui favorise l'apprentissage, la collaboration et le développement professionnel en informatique grâce à des événements, des ateliers et des projets.",
       "q3": "Dois-je être étudiant en ingénierie à l'ENISo pour rejoindre ?",
-      "a3": "Notre chapitre est ouvert aux étudiants de tous les horizons académiques intéressés par la technologie, la programmation, l'innovation, le leadership et le travail en équipe. Cela inclut les étudiants en cycle préparatoire, cycle ingénieur, licence, master et doctorat. Vous n'avez pas besoin d'être étudiant à l'ENISo pour rejoindre ; tous les étudiants universitaires sont les bienvenus.",
+      "a3": "Notre Student Chapter est ouvert aux étudiants de tous les horizons académiques intéressés par la technologie, la programmation, l'innovation, le leadership et le travail en équipe. Cela inclut les étudiants en cycle préparatoire, cycle ingénieur, licence, master et doctorat. Vous n'avez pas besoin d'être étudiant à l'ENISo pour rejoindre ; tous les étudiants universitaires sont les bienvenus.",
       "q4": "Dois-je être membre de l'ACM pour participer ?",
-      "a4": "Non, vous n'avez pas besoin d'être membre officiel de l'ACM pour assister ou participer aux activités de notre chapitre. Cependant, nous encourageons fortement les étudiants à devenir membres de l'Association for Computing Machinery afin de bénéficier de ressources, de certifications, d'événements et d'opportunités professionnelles internationales. Nous sommes heureux de vous aider à accéder à tous les avantages disponibles.",
+      "a4": "Non, vous n'avez pas besoin d'être membre officiel de l'ACM pour assister ou participer aux activités de notre Student Chapter. Cependant, nous encourageons fortement les étudiants à devenir membres de l'Association for Computing Machinery afin de bénéficier de ressources, de certifications, d'événements et d'opportunités professionnelles internationales. Nous sommes heureux de vous aider à accéder à tous les avantages disponibles.",
       "q5": "Comment devenir membre ?",
-      "a5": "Pour devenir membre de notre chapitre, veuillez suivre ces étapes :\n\n1. Remplissez le formulaire d'inscription du chapitre.\n\n2. Participez à une courte interview avec notre équipe.\n\n3. Payez les frais d'adhésion requis.\n\n4. Recevez la confirmation et rejoignez officiellement le chapitre.\n\nNotre formulaire d'adhésion est ouvert tout au long de l'année universitaire, sauf pendant les vacances d'été. Nous encourageons les étudiants intéressés à postuler lorsque les inscriptions sont disponibles."
+      "a5": "Pour devenir membre de notre Student Chapter, veuillez suivre ces étapes :\n\n1. Remplissez le formulaire d'inscription du Student Chapter.\n\n2. Participez à une courte interview avec notre équipe.\n\n3. Payez les frais d'adhésion requis.\n\n4. Recevez la confirmation et rejoignez officiellement le Student Chapter.\n\nNotre formulaire d'adhésion est ouvert tout au long de l'année universitaire, sauf pendant les vacances d'été. Nous encourageons les étudiants intéressés à postuler lorsque les inscriptions sont disponibles."
     },
     "pitch_text": "Nous sommes plus qu'un simple club. Nous sommes une partie officielle du réseau mondial de l'ACM, dédiée à l'avancement de l'informatique en tant que science et profession. Notre mission est de fournir aux étudiants les ressources, le mentorat et les opportunités nécessaires pour exceller dans l'industrie technologique.",
     "pitch_link": "En savoir plus sur notre héritage",
@@ -30,15 +30,15 @@
     "why_acm_title": "Pourquoi l'ACM ?",
     "why_acm_global_title": "L'Organisation Mondiale",
     "why_acm_global_text": "L'Association for Computing Machinery (ACM) est la plus grande société mondiale d'éducation et de science informatique. Avec plus de 100 000 membres dans 190 pays, l'ACM promeut l'informatique en tant que science et profession, favorisant l'innovation et le leadership dans tous les domaines de la technologie.",
-    "why_acm_chapter_title": "Notre Chapitre Étudiant",
+    "why_acm_chapter_title": "Notre Student Chapter",
     "why_acm_chapter_text": "À l'ENISo, nous transformons les idées en code, en événements et en connexions réelles — avec des hackathons, du mentorat et des projets qui se concrétisent.",
-    "why_acm_chapter_followup": "Cliquez sur l'annuaire des chapitres ACM, rejoignez-nous et faites partie d'une communauté qui propulse l'informatique dans le futur.",
+    "why_acm_chapter_followup": "Cliquez sur l'annuaire des Student Chapters ACM, rejoignez-nous et faites partie d'une communauté qui propulse l'informatique dans le futur.",
     "news_title": "Dernières Actualités",
     "news_subtitle": "Restez informé·e de nos événements, récapitulatifs et tutoriels techniques.",
     "news_view_all": "Voir tout",
     "sponsors_title": "Nos Partenaires et Sponsors",
     "faq_title": "Questions Fréquemment Posées",
-    "faq_subtitle": "Tout ce que vous devez savoir sur notre chapitre."
+    "faq_subtitle": "Tout ce que vous devez savoir sur notre Student Chapter."
   },
   "Navigation": {
     "home": "Accueil",
@@ -50,28 +50,18 @@
     "join": "Nous Rejoindre",
     "contact": "Contact"
   },
-  "Footer": {
-    "description": "Chapitre ACM officiel agréé à l'École Nationale d'Ingénieurs de Sousse.",
-    "quick_links": "Liens rapides",
-    "contact_us": "Nous contacter",
-    "location": "Pôle technologique de Sousse, Route de Ceinture Sahloul, Sousse 4054",
-    "email": "eniso.acm.studentchapter@gmail.com",
-    "phone": "+216 53003253",
-    "scroll_top": "Retour en haut",
-    "copyright": "© {year} Chapitre Étudiant ACM ENISo. Tous droits réservés."
-  },
   "About": {
     "hero_title": "Notre Vision",
     "hero_subtitle": "Ce sur quoi nous nous concentrons",
-    "hero_intro": "Notre chapitre s'articule autour de cinq piliers fondamentaux qui définissent notre mission et façonnent tout ce que nous entreprenons. Ces piliers orientent nos événements, initiatives et opportunités pour les membres.",
+    "hero_intro": "Notre Student Chapter s'articule autour de cinq piliers fondamentaux qui définissent notre mission et façonnent tout ce que nous entreprenons. Ces piliers orientent nos événements, initiatives et opportunités pour les membres.",
     "pillars": {
       "community": {
         "title": "Communauté",
-        "text": "Au cœur de notre chapitre se trouve une communauté dynamique d'étudiants passionnés par l'informatique et la technologie. Nous visons à créer un environnement accueillant où les membres peuvent rencontrer des pairs partageant les mêmes idées, collaborer sur des projets et grandir ensemble. Grâce à des événements sociaux, des projets d'équipe et un apprentissage collaboratif, nous favorisons une culture où la curiosité, la créativité et le soutien mutuel prospèrent."
+        "text": "Au cœur de notre Student Chapter se trouve une communauté dynamique d'étudiants passionnés par l'informatique et la technologie. Nous visons à créer un environnement accueillant où les membres peuvent rencontrer des pairs partageant les mêmes idées, collaborer sur des projets et grandir ensemble. Grâce à des événements sociaux, des projets d'équipe et un apprentissage collaboratif, nous favorisons une culture où la curiosité, la créativité et le soutien mutuel prospèrent."
       },
       "technical": {
         "title": "Compétences Techniques",
-        "text": "Nous pensons que la meilleure façon d'apprendre la technologie est de construire et de faire. Notre chapitre organise des ateliers, des sessions de codage et des événements techniques pratiques qui aident les membres à développer des compétences concrètes au-delà de la salle de classe. Les membres acquièrent de l'expérience avec des outils modernes, des langages de programmation et des pratiques de développement logiciel dans le domaine plus large de l'informatique."
+        "text": "Nous pensons que la meilleure façon d'apprendre la technologie est de construire et de faire. Notre Student Chapter organise des ateliers, des sessions de codage et des événements techniques pratiques qui aident les membres à développer des compétences concrètes au-delà de la salle de classe. Les membres acquièrent de l'expérience avec des outils modernes, des langages de programmation et des pratiques de développement logiciel dans le domaine plus large de l'informatique."
       },
       "industry": {
         "title": "Connexions Industrielles",
@@ -79,7 +69,7 @@
       },
       "academic": {
         "title": "Recherche et Croissance Académique",
-        "text": "Pour les membres intéressés par une exploration académique plus approfondie, notre chapitre promeut l'engagement en recherche et la curiosité intellectuelle. Nous organisons des conférences de recherche, des ateliers académiques et des opportunités de mentorat qui introduisent les étudiants au monde de la découverte scientifique et de l'innovation. Notre objectif est d'aider les étudiants à développer les compétences nécessaires aux études supérieures, aux stages de recherche et aux contributions académiques."
+        "text": "Pour les membres intéressés par une exploration académique plus approfondie, notre Student Chapter promeut l'engagement en recherche et la curiosité intellectuelle. Nous organisons des conférences de recherche, des ateliers académiques et des opportunités de mentorat qui introduisent les étudiants au monde de la découverte scientifique et de l'innovation. Notre objectif est d'aider les étudiants à développer les compétences nécessaires aux études supérieures, aux stages de recherche et aux contributions académiques."
       },
       "competitive": {
         "title": "Programmation Compétitive",
@@ -103,17 +93,17 @@
     "alumni_card_2023": "Promotion 2023 - Google, Meta, Microsoft",
     "alumni_card_2022": "Promotion 2022 - Amazon, Netflix, Apple",
     "roles": {
-      "chair": "Le poste de direction le plus élevé du chapitre. Définit la vision globale, la direction et la culture du club. Préside toutes les réunions, prend les décisions finales, représente le chapitre aux niveaux universitaire et national de l'ACM.",
+      "chair": "Le poste de direction le plus élevé du Student Chapter. Définit la vision globale, la direction et la culture du club. Préside toutes les réunions, prend les décisions finales, représente le Student Chapter aux niveaux universitaire et national de l'ACM.",
       "vice_chair": "Soutient le président dans toutes ses fonctions et remplace le président par intérim en cas de besoin. Supervise la coordination inter-comités.",
-      "treasurer": "Gère toutes les questions financières du chapitre. Responsable de la budgétisation, du suivi des dépenses, de la perception des cotisations et de la tenue de dossiers financiers transparents.",
+      "treasurer": "Gère toutes les questions financières du Student Chapter. Responsable de la budgétisation, du suivi des dépenses, de la perception des cotisations et de la tenue de dossiers financiers transparents.",
       "membership_chair": "Gère le cycle de vie complet des membres — du recrutement et de l'intégration à l'engagement et à la rétention.",
-      "secretary": "Le pilier organisationnel du bureau exécutif. Enregistre et distribue les procès-verbaux des réunions, maintient les documents officiels du chapitre.",
-      "faculty_sponsor": "Un membre du corps professoral qui sert d'ancrage institutionnel au chapitre. Fournit des conseils académiques.",
-      "events_director": "Supervise la planification, la coordination et l'exécution de tous les événements du chapitre. Gère le calendrier des événements du semestre.",
-      "marketing_director": "Responsable de la marque, de la visibilité et des communications du chapitre. Supervise tous les supports promotionnels.",
-      "technical_director": "Dirige toutes les initiatives techniques au sein du chapitre. Supervise le site Web du chapitre, les outils internes et les projets des membres.",
-      "research_director": "Fait le pont entre le chapitre et la vie académique. Organise des conférences de recherche et des ateliers académiques.",
-      "industry_director": "Gère toutes les relations entre le chapitre et le monde professionnel. Contacte les entreprises pour des partenariats.",
+      "secretary": "Le pilier organisationnel du bureau exécutif. Enregistre et distribue les procès-verbaux des réunions, maintient les documents officiels du Student Chapter.",
+      "faculty_sponsor": "Un membre du corps professoral qui sert d'ancrage institutionnel au Student Chapter. Fournit des conseils académiques.",
+      "events_director": "Supervise la planification, la coordination et l'exécution de tous les événements du Student Chapter. Gère le calendrier des événements du semestre.",
+      "marketing_director": "Responsable de la marque, de la visibilité et des communications du Student Chapter. Supervise tous les supports promotionnels.",
+      "technical_director": "Dirige toutes les initiatives techniques au sein du Student Chapter. Supervise le site Web du Student Chapter, les outils internes et les projets des membres.",
+      "research_director": "Fait le pont entre le Student Chapter et la vie académique. Organise des conférences de recherche et des ateliers académiques.",
+      "industry_director": "Gère toutes les relations entre le Student Chapter et le monde professionnel. Contacte les entreprises pour des partenariats.",
       "cp_director": "Dirige tous les efforts de programmation compétitive et de concours techniques. Organise des sessions d'entraînement."
     }
   },
@@ -137,7 +127,7 @@
     "placeholder_section_title_2": "Ce qui va suivre",
     "placeholder_section_desc_2": "Nous ajouterons des parcours d'apprentissage, des modèles de projets, des enregistrements d'ateliers et plus encore dès que nous aurons du contenu de qualité prêt à partager.",
     "projects_title": "Projets Open Source",
-    "projects_subtitle": "Dépôts, documentation et moyens de contribuer aux logiciels dirigés par le chapitre.",
+    "projects_subtitle": "Dépôts, documentation et moyens de contribuer aux logiciels dirigés par le Student Chapter.",
     "workshops_title": "Archives des Ateliers",
     "workshops_subtitle": "Archives des diapositives de présentation, extraits de code et enregistrements vidéo des sessions passées.",
     "cp_title": "Coin Programmation Compétitive (CP)",
@@ -147,7 +137,7 @@
     "hero_title": "Rejoignez-nous",
     "hero_subtitle": "Convertissez votre passion en une adhésion officielle à l'ACM.",
     "steps_title": "Comment nous rejoindre",
-    "steps_intro": "Suivez ces étapes pour devenir membre de notre chapitre. La plupart des étapes ne prennent que quelques minutes et tout est conçu pour vous aider à démarrer rapidement.",
+    "steps_intro": "Suivez ces étapes pour devenir membre de notre Student Chapter. La plupart des étapes ne prennent que quelques minutes et tout est conçu pour vous aider à démarrer rapidement.",
     "alert_success": "Merci pour votre candidature ! Nous examinerons votre demande et vous contacterons bientôt.",
     "placeholder_name": "Jean Dupont",
     "placeholder_email": "jean@example.com",
@@ -155,7 +145,7 @@
     "steps": {
       "application": {
         "title": "Remplissez le formulaire d'inscription",
-        "desc": "Complétez le formulaire d'adhésion officiel du chapitre ACM pour démarrer votre candidature."
+        "desc": "Complétez le formulaire d'adhésion officiel de l'ACM Student Chapter pour démarrer votre candidature."
       },
       "interview": {
         "title": "Participez à une courte interview avec notre équipe",
@@ -163,10 +153,10 @@
       },
       "payment": {
         "title": "Payez les frais d'adhésion requis",
-        "desc": "Soumettez les frais requis (le cas échéant) pour confirmer votre place au sein du chapitre."
+        "desc": "Soumettez les frais requis (le cas échéant) pour confirmer votre place au sein du Student Chapter."
       },
       "confirmation": {
-        "title": "Recevez la confirmation et rejoignez officiellement le chapitre",
+        "title": "Recevez la confirmation et rejoignez officiellement le Student Chapter",
         "desc": "Une fois approuvé, vous recevrez un message de bienvenue avec les prochaines étapes et comment rejoindre notre communauté."
       }
     },
@@ -185,7 +175,7 @@
     "socials_title": "Suivez-nous"
   },
   "Footer": {
-    "description": "Chapitre étudiant officiel ACM de l’École Nationale d’Ingénieurs de Sousse.",
+    "description": "Student Chapter officiel ACM de l’École Nationale d’Ingénieurs de Sousse.",
     "quick_links": "Liens rapides",
     "home": "Accueil",
     "about": "Notre vision",
@@ -200,7 +190,7 @@
     "email": "eniso.acm.studentchapter@gmail.com",
     "phone": "+216 53003253",
     "scroll_top": "Retour en haut",
-    "copyright": "© {year} Chapitre étudiant ACM ENISo. Tous droits réservés."
+    "copyright": "© {year} ACM ENISo Student Chapter. All rights reserved."
   },
   "News": {
     "news_title": "Actualités",
@@ -212,6 +202,6 @@
     "article_1_title": "Annonce du ENISo Code Clash 2026",
     "article_1_description": "Notre compétition annuelle de codage. Participez, apprenez et montrez vos compétences.",
     "article_1_date": "13 mars 2026",
-    "article_1_author": "ENISo ACM"
+    "article_1_author": "ACM ENISo"
   }
 }

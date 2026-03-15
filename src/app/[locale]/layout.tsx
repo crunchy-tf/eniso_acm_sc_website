@@ -3,8 +3,8 @@ import {Providers} from '@/components/Providers';
 import '../globals.css';
 
 export const metadata = {
-  title: 'ENISo ACM',
-  description: 'ENISo ACM Student Chapter',
+  title: 'ACM ENISo',
+  description: 'ACM ENISo Student Chapter',
   icons: {
     icon: '/images/logos/icon.png',
     shortcut: '/images/logos/icon.png',

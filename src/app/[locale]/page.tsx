@@ -98,7 +98,7 @@ export default async function Home() {
               <div className={styles.whyACMChapterLogo}>
                 <Image
                   src="/images/logos/logo.jpg"
-                  alt="ENISo ACM Student Chapter logo"
+                  alt="ACM ENISo Student Chapter logo"
                   width={220}
                   height={80}
                   style={{ objectFit: 'contain' }}
