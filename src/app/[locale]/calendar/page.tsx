@@ -2,9 +2,12 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import styles from './calendar.module.css';
 import {Calendar as CalendarIcon, MapPin, Star} from 'lucide-react';
-import {getTranslations} from 'next-intl/server';
+import Image from 'next/image';
+import Link from 'next/link';
+import {getLocale, getTranslations} from 'next-intl/server';
 
 export default async function Calendar() {
+  const locale = await getLocale();
   const t = await getTranslations('Calendar');
 
   return (
@@ -18,20 +21,29 @@ export default async function Calendar() {
         </section>
 
         <section className={styles.spotlight}>
-          <div className={styles.spotlightCard}>
-            <img src="/images/events/637472601_122175513800680217_906934261749656364_n.jpg" alt="ENISo Code Clash 2026" className={styles.spotlightImage} />
-            <div className={styles.spotlightBadge}>
-              <Star size={16} /> {t('flagship_title')}
-            </div>
-            <div className={styles.spotlightContent}>
-              <h2>ENISo Code Clash 2026</h2>
-              <p>Our annual coding competition. Compete, learn, and showcase your skills.</p>
-              <div className={styles.eventMeta}>
-                <span><CalendarIcon size={18} /> April 2026</span>
-                <span><MapPin size={18} /> ENISo Campus, Sousse</span>
+          <Link href={`/${locale}/news/1`} className={styles.spotlightLink}>
+            <div className={styles.spotlightCard}>
+              <div className={styles.spotlightImageWrapper}>
+                <Image
+                  src="/images/events/637472601_122175513800680217_906934261749656364_n.jpg"
+                  alt="ENISo Code Clash 2026"
+                  fill
+                  style={{ objectFit: 'cover' }}
+                />
+              </div>
+              <div className={styles.spotlightBadge}>
+                <Star size={16} /> {t('flagship_title')}
+              </div>
+              <div className={styles.spotlightContent}>
+                <h2>{t('flagship_event_title')}</h2>
+                <p>{t('flagship_event_description')}</p>
+                <div className={styles.eventMeta}>
+                  <span><CalendarIcon size={18} /> {t('flagship_event_date')}</span>
+                  <span><MapPin size={18} /> {t('flagship_event_location')}</span>
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         </section>
       </main>
 

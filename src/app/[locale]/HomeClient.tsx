@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import {motion} from 'framer-motion';
 import styles from './page.module.css';
 import {ArrowRight} from 'lucide-react';
@@ -12,6 +13,9 @@ interface HomeClientProps {
     description: string;
     cta: string;
     upcoming: string;
+    heroCardHeader: string;
+    heroCardTitle: string;
+    heroCardFooter: string;
   };
 }
 
@@ -55,10 +59,18 @@ export default function HomeClient({ locale, t }: HomeClientProps) {
       <div className={styles.heroVisual}>
         <div className={styles.blob}></div>
         <div className={styles.floatingCard}>
-          <img src="/images/events/637472601_122175513800680217_906934261749656364_n.jpg" alt="ENISo Code Clash 2026" className={styles.cardImage} />
-          <div className={styles.cardHeader}>Next Event</div>
-          <div className={styles.cardTitle}>ENISo Code Clash</div>
-          <div className={styles.cardFooter}>April 2026</div>
+          <div className={styles.cardImageWrapper}>
+            <Image
+              src="/images/events/637472601_122175513800680217_906934261749656364_n.jpg"
+              alt={t.heroCardTitle}
+              fill
+              style={{ objectFit: 'cover' }}
+              priority
+            />
+          </div>
+          <div className={styles.cardHeader}>{t.heroCardHeader}</div>
+          <div className={styles.cardTitle}>{t.heroCardTitle}</div>
+          <div className={styles.cardFooter}>{t.heroCardFooter}</div>
         </div>
       </div>
     </section>

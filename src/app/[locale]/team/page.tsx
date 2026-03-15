@@ -85,8 +85,8 @@ export default async function Team() {
           <h2>{t('alumni_title')}</h2>
           <p>{t('alumni_subtitle')}</p>
           <div className={styles.alumniGrid}>
-            <div className={styles.alumniCard}>Class of 2023 - Google, Meta, Microsoft</div>
-            <div className={styles.alumniCard}>Class of 2022 - Amazon, Netflix, Apple</div>
+            <div className={styles.alumniCard}>{t('alumni_card_2023')}</div>
+            <div className={styles.alumniCard}>{t('alumni_card_2022')}</div>
           </div>
         </section>
       </main>

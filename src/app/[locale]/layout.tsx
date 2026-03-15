@@ -1,7 +1,6 @@
 import {getMessages} from 'next-intl/server';
 import {Providers} from '@/components/Providers';
 import '../globals.css';
-import {Inter} from 'next/font/google';
 
 export const metadata = {
   title: 'ENISo ACM',
@@ -11,8 +10,6 @@ export const metadata = {
     shortcut: '/images/logos/icon.png',
   },
 };
-
-const inter = Inter({subsets: ['latin']});
 
 export default async function LocaleLayout({
   children,
@@ -26,7 +23,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={inter.className}>
+      <body>
         <Providers locale={locale} messages={messages}>
           {children}
         </Providers>

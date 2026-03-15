@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import {useTranslations} from 'next-intl';
 import Link from 'next/link';
 import {usePathname, useRouter} from 'next/navigation';
@@ -43,12 +44,13 @@ export default function Header() {
       <nav className={styles.nav}>
         <div className={styles.logo}>
           <Link href={`/${locale}`} className={styles.logoLink}>
-            <img
+            <Image
               src="/images/logos/icon.png"
               alt="ENISo ACM logo"
               className={styles.logoIcon}
               width={44}
               height={44}
+              priority
             />
             <div className={styles.logoLabel}>
               <span className={styles.logoLine}>ENISo</span>

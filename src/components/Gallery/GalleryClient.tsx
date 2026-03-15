@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import styles from './Gallery.module.css';
 
@@ -28,12 +29,22 @@ export default function GalleryClient({ images }: GalleryClientProps) {
         >
           {row1.map((src, i) => (
             <div key={i} className={styles.imageBox}>
-              <img src={src} alt="Chapter Life" />
+              <Image
+                src={src}
+                alt="Chapter Life"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
             </div>
           ))}
           {row1.map((src, i) => (
             <div key={`dup1-${i}`} className={styles.imageBox}>
-              <img src={src} alt="Chapter Life" />
+              <Image
+                src={src}
+                alt="Chapter Life"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
             </div>
           ))}
         </motion.div>
@@ -51,12 +62,22 @@ export default function GalleryClient({ images }: GalleryClientProps) {
         >
           {row2.map((src, i) => (
             <div key={i} className={styles.imageBox}>
-              <img src={src} alt="Chapter Life" />
+              <Image
+                src={src}
+                alt="Chapter Life"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
             </div>
           ))}
           {row2.map((src, i) => (
             <div key={`dup2-${i}`} className={styles.imageBox}>
-              <img src={src} alt="Chapter Life" />
+              <Image
+                src={src}
+                alt="Chapter Life"
+                fill
+                style={{ objectFit: 'cover' }}
+              />
             </div>
           ))}
         </motion.div>

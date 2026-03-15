@@ -2,19 +2,21 @@ import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import styles from './news.module.css';
 import {Calendar, User} from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
-import {getLocale} from 'next-intl/server';
+import {getLocale, getTranslations} from 'next-intl/server';
 
 export default async function News() {
   const locale = await getLocale();
+  const t = await getTranslations('News');
 
   const articles = [
     {
       id: 1,
-      title: 'Announcing the 2026 ENISo Code Clash',
-      description: 'Our annual coding competition. Compete, learn, and showcase your skills.',
-      date: 'March 13, 2026',
-      author: 'ENISo ACM',
+      title: t('article_1_title'),
+      description: t('article_1_description'),
+      date: t('article_1_date'),
+      author: t('article_1_author'),
       image: '/images/events/637472601_122175513800680217_906934261749656364_n.jpg'
     }
   ];
@@ -25,8 +27,8 @@ export default async function News() {
       
       <main className={styles.main}>
         <section className={styles.hero}>
-          <h1>Latest News</h1>
-          <p>Stay updated with our events, recaps, and tech tutorials.</p>
+          <h1>{t('news_title')}</h1>
+          <p>{t('news_subtitle')}</p>
         </section>
 
         <section className={styles.grid}>
@@ -34,7 +36,13 @@ export default async function News() {
             <Link key={article.id} href={`/${locale}/news/${article.id}`} className={styles.cardLink}>
               <article className={styles.card}>
                 <div className={styles.imageWrapper}>
-                  <img src={article.image} alt={article.title} />
+                  <Image
+                    src={article.image}
+                    alt={article.title}
+                    width={450}
+                    height={250}
+                    style={{ objectFit: 'cover', width: '100%', height: '200px' }}
+                  />
                 </div>
                 <div className={styles.content}>
                   <div className={styles.meta}>

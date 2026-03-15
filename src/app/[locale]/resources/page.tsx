@@ -1,26 +1,29 @@
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
 import styles from './resources.module.css';
+import {getTranslations} from 'next-intl/server';
 
-export default function Resources() {
+export default async function Resources() {
+  const t = await getTranslations('Resources');
+
   return (
     <div className={styles.container}>
       <Header />
 
       <main className={styles.main}>
         <section className={styles.hero}>
-          <h1>Resources (Coming Soon)</h1>
-          <p>We’re currently clearing out placeholder content. This page will be filled with valuable resources and guides soon.</p>
+          <h1>{t('hero_title')}</h1>
+          <p>{t('hero_subtitle')}</p>
         </section>
 
         <section className={styles.placeholder}>
           <div className={styles.placeholderCard}>
-            <h2>Why it’s hidden</h2>
-            <p>We decided to remove the old placeholder content so we can rebuild this page with useful resources, workshops, and competitions that actually help members.</p>
+            <h2>{t('placeholder_section_title_1')}</h2>
+            <p>{t('placeholder_section_desc_1')}</p>
           </div>
           <div className={styles.placeholderCard}>
-            <h2>What’s next</h2>
-            <p>We’ll be adding learning paths, project templates, workshop recordings, and more as soon as we have high quality content ready to share.</p>
+            <h2>{t('placeholder_section_title_2')}</h2>
+            <p>{t('placeholder_section_desc_2')}</p>
           </div>
         </section>
       </main>

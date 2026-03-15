@@ -10,7 +10,11 @@ export function Providers({children, locale, messages}: {
   messages: AbstractIntlMessages;
 }) {
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
+    <NextIntlClientProvider
+      locale={locale}
+      messages={messages}
+      timeZone="Africa/Tunis"
+    >
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         {children}
       </ThemeProvider>

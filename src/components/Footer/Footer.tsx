@@ -2,12 +2,12 @@
 
 import {useTranslations} from 'next-intl';
 import Link from 'next/link';
-import {Facebook, Instagram, Linkedin, Twitter, Github, Mail, MapPin, Phone, ArrowUp} from 'lucide-react';
+import {Facebook, Instagram, Linkedin, Mail, MapPin, Phone, ArrowUp} from 'lucide-react';
 import styles from './Footer.module.css';
 import {useLocale} from 'next-intl';
 
 export default function Footer() {
-  const t = useTranslations('Navigation');
+  const t = useTranslations('Footer');
   const locale = useLocale();
 
   const scrollToTop = () => {
@@ -21,19 +21,17 @@ export default function Footer() {
           <div className={styles.info}>
             <h3 className={styles.logo}>ENISo ACM</h3>
             <p className={styles.description}>
-              Official Chartered ACM Student Chapter at the National School of Engineers of Sousse.
+              {t('description')}
             </p>
             <div className={styles.socials}>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><Instagram size={20} /></a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><Facebook size={20} /></a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><Twitter size={20} /></a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer"><Github size={20} /></a>
+              <a href="https://www.linkedin.com/company/club-acm-eniso/" target="_blank" rel="noopener noreferrer"><Linkedin size={20} /></a>
+              <a href="https://www.instagram.com/acm_eniso/" target="_blank" rel="noopener noreferrer"><Instagram size={20} /></a>
+              <a href="https://www.facebook.com/club.acm.eniso/" target="_blank" rel="noopener noreferrer"><Facebook size={20} /></a>
             </div>
           </div>
 
           <div className={styles.links}>
-            <h4>Quick Links</h4>
+            <h4>{t('quick_links')}</h4>
             <ul>
               <li><Link href={`/${locale}`}>{t('home')}</Link></li>
               <li><Link href={`/${locale}/about`}>{t('about')}</Link></li>
@@ -47,18 +45,22 @@ export default function Footer() {
           </div>
 
           <div className={styles.contact}>
-            <h4>Contact Us</h4>
+            <h4>{t('contact_us')}</h4>
             <ul>
-              <li><MapPin size={18} /> ENISo, Sousse, Tunisia</li>
-              <li><Mail size={18} /> contact@eniso-acm.org</li>
-              <li><Phone size={18} /> +216 73 369 500</li>
+              <li><MapPin size={18} /> {t('location')}</li>
+              <li><Mail size={18} /> {t('email')}</li>
+              <li><Phone size={18} /> {t('phone')}</li>
             </ul>
           </div>
         </div>
 
         <div className={styles.bottom}>
-          <p>© {new Date().getFullYear()} ENISo ACM Student Chapter. All rights reserved.</p>
-          <button onClick={scrollToTop} className={styles.backToTop}>
+          <p>{t('copyright', { year: new Date().getFullYear() })}</p>
+          <button
+            onClick={scrollToTop}
+            className={styles.backToTop}
+            aria-label={t('scroll_top')}
+          >
             <ArrowUp size={20} />
           </button>
         </div>

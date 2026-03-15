@@ -5,6 +5,7 @@ import Gallery from '@/components/Gallery/Gallery';
 import HomeClient from './HomeClient';
 import styles from './page.module.css';
 import {ArrowRight} from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import {getTranslations, getLocale} from 'next-intl/server';
 
@@ -17,26 +18,11 @@ export default async function Home() {
   ];
 
   const faqs = [
-    {
-      question: 'What is ACM?',
-      answer: 'The Association for Computing Machinery (ACM) is the world’s largest educational and scientific computing society. It connects students, researchers, and professionals in computer science and related fields.',
-    },
-    {
-      question: 'What is an ACM Student Chapter?',
-      answer: 'An ACM Student Chapter is a university-based organization that promotes learning, collaboration, and professional development in computing through events, workshops, and projects.',
-    },
-    {
-      question: 'Do I have to be an engineering student at ENISo to join?',
-      answer: 'Our chapter is open to students from all academic backgrounds who are interested in technology, programming, innovation, leadership, and teamwork. This includes students in the preparatory cycle, engineering cycle, bachelor\'s (license), master\'s, and PhD programs. You do not need to be a student at ENISo to join; all university students are welcome to participate.',
-    },
-    {
-      question: 'Do I need to be an ACM member to participate?',
-      answer: 'No, you do not need to be an official ACM member to attend or participate in our chapter’s activities. However, we strongly encourage students to become members of the official Association for Computing Machinery (ACM) to benefit from international resources, certifications, events, and professional opportunities. We are happy to guide you through the process and help you access all available benefits.',
-    },
-    {
-      question: 'How can I become a member?',
-      answer: 'To become a member of our chapter, please follow these steps:\n\n1. Complete the chapter registration form.\n\n2. Attend a short interview with our team.\n\n3. Pay the required membership fee.\n\n4. Receive confirmation and officially join the chapter.\n\nOur membership form is open throughout the academic year, except during the summer break. We encourage interested students to apply when registrations are available.',
-    },
+    { question: t('faq.q1'), answer: t('faq.a1') },
+    { question: t('faq.q2'), answer: t('faq.a2') },
+    { question: t('faq.q3'), answer: t('faq.a3') },
+    { question: t('faq.q4'), answer: t('faq.a4') },
+    { question: t('faq.q5'), answer: t('faq.a5') },
   ];
 
   const sponsors = [
@@ -55,6 +41,9 @@ export default async function Home() {
     description: t('description'),
     cta: t('cta'),
     upcoming: t('upcoming'),
+    heroCardHeader: t('hero_card_header'),
+    heroCardTitle: t('hero_card_title'),
+    heroCardFooter: t('hero_card_footer'),
   };
 
   return (
@@ -70,15 +59,15 @@ export default async function Home() {
           <div className={styles.statsGrid}>
             <div className={styles.stat}>
               <span className={styles.statValue}>500+</span>
-              <span className={styles.statLabel}>Members</span>
+              <span className={styles.statLabel}>{t('stats.members')}</span>
             </div>
             <div className={styles.stat}>
               <span className={styles.statValue}>50+</span>
-              <span className={styles.statLabel}>Events</span>
+              <span className={styles.statLabel}>{t('stats.events')}</span>
             </div>
             <div className={styles.stat}>
               <span className={styles.statValue}>10+</span>
-              <span className={styles.statLabel}>Sponsors</span>
+              <span className={styles.statLabel}>{t('stats.sponsors')}</span>
             </div>
           </div>
         </section>
@@ -92,7 +81,13 @@ export default async function Home() {
             <h2 className={styles.whyACMTitle}>{t('why_acm_title')}</h2>
             <div className={styles.whyACMGrid}>
               <div className={styles.whyACMLogo}>
-                <img src="/images/sponsors/Association_for_Computing_Machinery_(ACM)_logo.svg.png" alt="ACM Logo" />
+                <Image
+                  src="/images/sponsors/Association_for_Computing_Machinery_(ACM)_logo.svg.png"
+                  alt="ACM Logo"
+                  width={220}
+                  height={80}
+                  style={{ objectFit: 'contain' }}
+                />
               </div>
 
               <div className={styles.whyACMBlock}>
@@ -101,23 +96,19 @@ export default async function Home() {
               </div>
 
               <div className={styles.whyACMChapterLogo}>
-                <img src="/images/logos/logo.jpg" alt="ENISo ACM Student Chapter logo" />
+                <Image
+                  src="/images/logos/logo.jpg"
+                  alt="ENISo ACM Student Chapter logo"
+                  width={220}
+                  height={80}
+                  style={{ objectFit: 'contain' }}
+                />
               </div>
 
               <div className={styles.whyACMBlock}>
                 <h3>{t('why_acm_chapter_title')}</h3>
-                <p>
-                  At ENISo, we transform bold ideas into real code, real events, and real impact. Through hack nights, mentorship, and hands-on projects that actually ship, we’re building the future of computing together. {' '}
-                  <a
-                    href="https://www.acm.org/chapters/find-a-chapter"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.externalLink}
-                  >
-                    Find us on ACM.
-                  </a>{' '}
-                  Get involved, and be part of the team driving innovation forward.
-                </p>
+                <p>{t('why_acm_chapter_text')}</p>
+                <p>{t('why_acm_chapter_followup')}</p>
               </div>
             </div>
           </div>
@@ -130,11 +121,18 @@ export default async function Home() {
               <h2>{t('news_title')}</h2>
               <Link href={`/${locale}/news`}>{t('news_view_all')} <ArrowRight size={18} /></Link>
             </div>
+            <p className={styles.newsSubtitle}>{t('news_subtitle')}</p>
             <div className={styles.newsGrid}>
               {news.map((item) => (
                 <Link key={item.id} href={`/${locale}/news/${item.id}`} className={styles.newsCardLink}>
                   <article className={styles.newsCard}>
-                    <img src={item.image} alt={item.title} />
+                    <Image
+                    src={item.image}
+                    alt={item.title}
+                    width={450}
+                    height={250}
+                    style={{ objectFit: 'cover', width: '100%', height: '200px' }}
+                  />
                     <div className={styles.newsContent}>
                       <span>{item.date}</span>
                       <h3>{item.title}</h3>
@@ -153,7 +151,13 @@ export default async function Home() {
             <div className={styles.sponsorGrid}>
               {sponsors.map((s, i) => (
                 <div key={i} className={styles.sponsorCard}>
-                  <img src={s.logo} alt={s.name} />
+                  <Image
+                    src={s.logo}
+                    alt={s.name}
+                    width={200}
+                    height={80}
+                    style={{ objectFit: 'contain', width: '100%', height: '100%' }}
+                  />
                 </div>
               ))}
             </div>

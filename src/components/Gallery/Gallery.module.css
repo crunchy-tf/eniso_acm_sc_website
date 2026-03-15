@@ -26,16 +26,14 @@
   flex-shrink: 0;
   border-radius: var(--radius);
   overflow: hidden;
+  position: relative;
 }
 
-.imageBox img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.imageBox :global(img) {
   transition: transform 0.5s ease;
 }
 
-.imageBox:hover img {
+.imageBox:hover :global(img) {
   transform: scale(1.1);
 }
 
